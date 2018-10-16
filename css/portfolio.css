@@ -5,11 +5,10 @@ body{
 }
 .headerwrap .header{
 	position: relative;
-    top: 10px;
     width: 100%;
     height: 80px;
     margin: 0 auto;
-    background: lightgreen;
+    background:rgb(255,255,240);
 }
 .headerwrat .header::after{
 	content:"";
@@ -18,8 +17,9 @@ body{
 }
 /* tapmenu */
 .header .nav{
-	width:100%;
-	margin:0 auto;
+	width: 100%;
+    padding-top: 15px;
+    margin: 0 auto;
 }
 .nav .gnb::after{
 	content:"";
@@ -39,11 +39,15 @@ body{
     text-align: center;
 }
 .nav .dep1 > a {
-	position:relative;
-	font-size:24px;
-	font-weight:600;
+	position: relative;
+    top: -25px;
+    left: -10px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 10px;
 }
 .nav .dep1:hover > a{
+	background:rgba(1,179,219,.5);
 	color:#00008B;
 }
 /* dpeth2 */
@@ -58,7 +62,7 @@ body{
     width: 100%;
     max-height: 0;
     padding-bottom: 0;
-    padding-left: 19px;
+    padding-left: 20px;
     background: rgba(0,0,0,.8);
     transition: all .5s;
 	opacity: 0;
@@ -97,14 +101,14 @@ body{
 }
 .header .logo img{
 	display: inline-block;
-	clear: both;
-	width: 100px;
-	height: 80px;
-	opacity: 0.8;
+    clear: both;
+    width: 100px;
+    height: 80px;
+    opacity: 0.8;
 }
 .header .logo span{
 	position: absolute;
-    top: 0;
+    top: 10px;
     left: 100px;
     font-size: 30px;
     font-weight: 500;
@@ -123,7 +127,6 @@ body{
 	width:100%;
 	height:450px;
 	margin-top:10px;
-	background:rgba(175,27,63.8);
 }
 .visualwrap img{
 	width:100%;
@@ -172,206 +175,308 @@ body{
     height: 750px;
 }
 .cstwrap .contents{
-    width: 1350px;
-	height: 400px;
-	padding:50px;
-    background: rgba(0,0,0,.8);
-    border: 5px double silver;
+	width: 1350px;
+    height: 400px;
+    padding: 50px;
+    background: rgb(240,243,248);
 }	
 .cstwrap .contents article{
-	float:left;
-	margin-left:20px;
+	float: left;
+	border: 1px solid black;
 }
 .cstwrap .contents article:first-child{
 	margin-left:0;
 }
 /* contents1 */
 .contents1{
+	position: relative;
     width: 400px;
-	height: 200px;
-    background: rgb(255,115,116,.8);
-    border: 5px double gray;
+    height: 325px;
+    margin: 10px;
+    text-align: center;
+    background: white;
+
 }
 .contents1 .listgp1_1{
-	font-size:18px;
+	font-size:15px;
 	font-weight:500;
 }
 .contents1 .listgp1_1 li a span{
-	font-size:18px;
-	font-weight:500;
-	transition:all .5s;
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
 }
+
 .contents1 .listgp1_1 li a span:hover{
-	font-size:20px;
-	font-weight:700;
+	font-size:15px;
+	font-weight:bold;
 }
 #subtitle1{
 	display: inline-block;
-    width: 390px;
+    width: 400px;
     height: 30px;
-    border: 2px solid wheat;
+    border-bottom: 5px double black;
+
 }
 #subtitle1 span{
-	font-size: 18px;
-    font-weight: 700;
-    color: white;
-    transition:all .5s;
+	padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 }
 #subtitle1 span:hover{
-	color:greenyellow;
-	font-size:22px;
+	color:gray;
+	font-size:16px;
+	font-weight:bold;
 
 }
 
 /* contents2 */
 .contents2{
+	position: absolute;
+    left: 450px;
+    margin: 10px;
     width: 400px;
-    height: 200px;
-    background: rgb(255,115,116,.8);
-    border: 5px double gray;
+    height: 325px;
+    text-align: center;
+    background: white;
 }
 .contents2 .listgp1_2{
-	font-size:18px;
-	font-weight:500;
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.subtext{
+	font-size:15px; font-weight:800; padding-top:10px;
+}
+.subtext1{
+	font-size:15px;
+	font-weight:800;
+	padding: 5px 10px;
+}
+#stext1{
+	font-weight: 500;
+	padding-left: 5px;
+}
+.subtext2{
+	font-size:15px;
+	font-weight:800;
+	padding: 5px 10px;
+}
+#stext2{
+	font-weight: 500;
+	padding-left: 5px;
+}
+.subtext3{
+	font-size:15px;
+	font-weight:800;
+	padding: 5px 10px;
+}
+#stext3{
+	font-weight: 500;
+	padding-left: 5px;
 }
 .contents2 .listgp1_2 li a span{
-	font-size:18px;
-	font-weight:500;
-	transition:all .5s;
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
 }
 .contents2 .listgp1_2 li a span:hover{
-	font-size:20px;
-	font-weight:700;	
-}
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}	
 #subtitle2{
 	display: inline-block;
-    width: 390px;
-    height: 30px;
-    border: 2px solid wheat;
+    width: 400px;
+	height: 30px;
+	border-bottom: 5px double black;
 }
 #subtitle2 span{
-	font-size: 18px;
-    font-weight: 700;
-    color: white;
-    transition:all .5s;
+	padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 }
 #subtitle2 span:hover{
-	color:darkblue;
-	font-size:22px;
+	color:gray;
+	font-size:16px;
+	font-weight:bold;
 
 }
 
 /* contents3 */
 .contents3 {
+	position: absolute;
+    left: 860px;
     width: 400px;
-    height: 100px;
-    background: rgb(255,115,116,.8);
-    border: 5px double gray;
+    height: 170px;
+    margin: 10px;
+    text-align: center;
+    color: white;
 }
 .contents3 .listgp1_3{
-	font-size:18px;
-	font-weight:500;
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
 }
-.contents3 .listgp1_3 span{
-	font-size:18px;
-	font-weight:500;
-	transition:all .5s;
+.contents3 .listgp1_3 li a span{
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
 }
-.contents3 .listgp1_3 span:hover{
-	font-size:20px;
-	font-weight:700;
+.contents3 .listgp1_3 li a span:hover{
+	font-size:15px;
+	font-weight:bold;
 }
 #subtitle3{
 	display: inline-block;
 	margin-bottom:10px;
-    width: 390px;
-    height: 30px;
-    border: 2px solid wheat;
+	width: 400px;
+	height: 30px;
+	border-bottom: 5px double black;
 }
 #subtitle3 span{
-	font-size:18px;
-	font-weight:500;
-	color:white;
-	transition:all .5s;
+	padding-left:10px;
+	font-size:16px;
+	font-weight:600;
+	color: black;
 }
 #subtitle3 span:hover{
-	color:yellow;
-	font-size:22px;
+	color:gray;
+	font-size:16px;
+	font-weight:bold;
 }
 
 /* contents4 */
 .contents4 {
-	width: 400px;
-    margin-top: 10px;
-    height: 100px;
-    background: rgb(255,115,116,.8);
-    border: 5px double gray;
+	position: absolute;
+    top: 225px;
+    left: 860px;
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    background: white;
 }
 .contents4 .listgp1_4{
-	font-size:18px;
-	font-weight:500;
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
 }
-.contents4 .listgp1_4 span{
-	font-size:18px;
-	font-weight:500px;
-	transition:all .5s;
+.contents4 .listgp1_4 li a{
+	font-size: 15px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 20px;
 }
-.contents4 .listgp1_4 span:hover{
-	font-size:20px;
-	font-weight:700;
+
+.contents4 .listgp1_4 li a span{
+	padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contents4 .listgp1_4 li a span:hover{
+	font-size:15px;
+	font-weight:bold;
+	color:blue;
 }
 #subtitle4 {
 	display: inline-block;
-    margin-bottom: 10px;
-    width: 390px;
-    height: 30px;
-    border: 2px solid wheat;
+	margin-bottom:10px;
+	width: 400px;
+	height: 30px;
+	border-bottom: 5px double black;
 }
 #subtitle4 span{
-	font-size:18px;
-	font-weight:500;
-	color:white;
-	transition:all .5s;
+	padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 }
 #subtitle4 span:hover{
-	color:limegreen;
-	font-size:22px;
+	color:gray;
+	font-size:16px;
+	font-size:bold;
+	
 }
-
 /* gallery */
-.container .gallery{
-	position: absolute;
-    top: 400px;
+.container .gallery {
+    position: absolute;
+	top: 375px;
+	margin-top:45px;
     width: 1350px;
-    height: 350px;
-    background: rgba(50,255,147,.9);
-    border: 5px double gray;
+    height: 375px;
+	background:rgb(240,243,248);
+}
+.gallery img{
+	width: 330px;
+    height: 230px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    float: left;
+}
+.glt1{
+	width: 330px;
+    height: 230px;
+	float: left;
+	font-size:15px;
+	font-weight:800;
+    text-align: center;	
+}
+.glt2{
+	width: 330px;
+    height: 230px;
+	float: left;
+	font-size:15px;
+	font-weight:800;
+    text-align: center;
+}
+.glt3{
+	width: 330px;
+    height: 230px;
+	float: left;
+	font-size:15px;
+	font-weight:800;
+    text-align: center;
+}
+.glt4{
+	width: 330px;
+    height: 230px;
+	float: left;
+	font-size:15px;
+	font-weight:800;
+    text-align: center;
 }
 #gt{
 	height: 74px;
     font-size: 24px;
     font-weight: 700;
-    color: white;
-    border: 2px solid black;
+	color: white;
+	background:rgb(240,243,248);
+    border: 1px solid darkgray;
     padding: 20px 45px;
 }
 #gt span{
-	color:white;
+	color:black;
 	font-size:24px;
-	transition: all .5s;
+	font-weight:500;
 }
 #gt span:hover{
-	color:indianred;
 	position:absolute;
-	font-size:30px;
+	font-size:24px;
+	font-weight:bold;
 } 
 
 /* footer */
-.footer{
-	width:1350px;
-	height:300px;
-	margin:0 auto;
-	background:rgba(144,255,144,.8);
+.footer {
+    width: 1350px;
+    height: 250px;
+    margin: 35px 0;
+    background: rgb(60,70,88);
 }
 .footer::after{
 	content:"";
@@ -379,43 +484,54 @@ body{
 	clear:both;
 
 }
-.footer .footwrap .snsmenu{
-	width: 100%;
-    height: 100px;
-    margin-top: 15px;
-    background: rgba(0,0,139,.5);
-    text-align: center;
-}
-.footer .footwrap .snsmenu img{
-   width:64px;
-   height:64px;
-   line-height:64px;
-   margin-top:10px;
-   vertical-align:middle;
+
+.footer .footwrap .snsmenu img {
+	position: relative;
+    top: 50px;
+    margin-top: 50px;
+    margin-right: 250px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 55%;
+    float: right;
 }
 #ftext{
-	font-size:24px;
-	font-weight:600;
-	margin:20px 20px;
-	color:black;
-	text-align:center;
+	font-size: 24px;
+    font-weight: 700;
+    padding: 25px 15px;
+    color: rgb(70,73,255);
+    text-align: left;
 }
+
 address{
-	font-size:20px;
-	font-weight:600;
-	color:black;
-	text-align:center;
+	font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: rgb(189,192,202);
+    text-align: left;
+}
+address span {
+    font-size: 16px;
+	font-weight: 700;
+	color:rgb(189,192,202);
 }
 .tel{
-	font-size:20px;
-	font-weight:600;
-	margin:10px 20px;
-	color:black;
-	text-align:center;
+	font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: rgb(189,192,202);
+    text-align: left;
 }
-.date{
-	font-size:20px;
-	font-weight:600;
-	color:black;
-	text-align:center;
+.tel span {
+    font-size: 16px;
+	font-weight: 700;
+	color:rgb(189,192,202);
+}
+.date {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    color: rgb(189,192,202);
+    text-align: left;
 }
