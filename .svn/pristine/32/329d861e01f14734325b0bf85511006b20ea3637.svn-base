@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type ="text/css" href="css/reset.css">
+    <link rel="stylesheet" type ="text/css" href="css/portfolio.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="headerwrap">
+        <header class="header">
+            <h1 class="logo">
+                <a herf="#">
+                    <img src="images/logo.png" alt="logo">
+                    <span>Byeong Seon Portfolio</span>
+                </a>
+            </h1>
+            <!-- //.logo -->
+            <div class="nav">
+                <h2>About Me</h2>
+                <ul class="gnb">  
+                    <li class="dep1">
+                        <a href="#">profile</a>
+                        <span>프로필</span>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">skill</a>
+                        <span>활용 능력</span>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">portfolio</a>
+                        <span>포트폴리오</span>
+                    </li>
+                </ul>
+                <!-- //.gnb -->
+
+                <div class="favorites">
+                    <h2>Favorites Zone</h2>
+                    <ul class="favorwrap">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- //.nav -->
+        </header>
+        <!-- //.header -->
+    </div>
+    <!-- //.headerwrap -->
+
+
+    <main class="container">
+        <div class="cstwrap">
+            <section class="contents">
+                <article class="contents1">
+                    <h2></h2>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>   
+                 </article>
+                 <article class="contents2">
+                     <h2></h2>
+                     <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                     </ul>
+                 </article>
+            </section>      
+        </div>
+        <!-- //.csection -->
+    </main>
+    <!-- //.container -->
+</body>
+</html>
