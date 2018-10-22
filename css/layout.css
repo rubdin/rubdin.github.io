@@ -23,6 +23,8 @@ body{
     float:left;
     width:240px;
     height:60px;
+    text-shadow: 1px 1px 0px #fff000, 
+    3px 3px 2px #f3753a;
 }
 .logo::after{
     content:"";
@@ -45,7 +47,7 @@ body{
     font-weight: 400;
     margin: 10px 10px;
     padding:10px 10px;
-    background: rgb(1,179,219);
+    background:darkgray;
     text-align: center;
 }
 
@@ -62,6 +64,7 @@ body{
     text-align: center;
     border-top: 2px solid navy;
     border-bottom: 2px solid navy;
+   
 }
 .gnb::after{
     content:"";
@@ -105,6 +108,7 @@ body{
     display:inline-block;
     color:white;
     font-size:15px;
+    text-align:center;
 }
 /* favorire zone */
 .favorites{
