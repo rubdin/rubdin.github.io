@@ -76,6 +76,18 @@ body{
     float:left;
     padding:10px 10px;
 }
+.gnb .dep1::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.gnb .dep1 {
+    position:relative;
+    display:inline-block;
+    float:left;
+    text-align:center;
+}
 .gnb .dep1 > a{
     position: relative;
     display: inline-block;
@@ -83,14 +95,16 @@ body{
     padding: 5px 5px;
     font-size: 18px;
     font-weight: 700;
-    text-align:center;
 }
 .gnb .dep1:hover > a{
     background:rgba(0,0,0,.8);
     color:white;
+    transition:all .5s;
 }
-.gnb .dep1 > span{
-    display:none;  
+.gnb .dep1:hover span{
+    display:inline-block;
+    color:white;
+    font-size:15px;
 }
 /* favorire zone */
 .favorites{
@@ -114,14 +128,13 @@ body{
 }
 .cstwrap{
     position:relative;
-    top: 0;
+    top: 10px;
     left: 130px;
     width:1200px;
-    height:1025px;
 }
 .cstwrap .contents{
     width:100%;
-    margin:0 auto;    
+    margin:0 auto;
 }
 .cstwrap .contents::after{
     content:"";
@@ -133,19 +146,11 @@ body{
     width:100%;
 }
 
-/* contents1 */
+/* contents */
 .cstwrap .contents .contents1{
     position:absolute;
     top:50px;
     left:110px;
     height:560px;
     background: lightblue;
-}
-/* contents2 */
-.cstwrap .contents2{
-    position:absolute;
-    top:570px;
-    left:110px;
-    height:470px;
-    background: lightcoral;
 }
