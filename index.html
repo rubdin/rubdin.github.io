@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type ="text/css" href="css/reset.css">
     <link rel="stylesheet" type ="text/css" href="css/layout.css">
+    <script type ="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
+    <script type ="text/javascript" src="js/jquery/jquery-3.3.1.min.js"></script>
+	<script type ="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
@@ -23,9 +26,9 @@
                     <li class="dep1">
                         <a href="#">Profile</a>
                         <span>프로필</span>
-                    </li>
+                    </li>                  
                     <li class="dep1">
-                        <a href="#">Skill</a>
+                        <a href="#skill">Skill</a>
                         <span>활용능력</span>
                     </li>
                     <li class="dep1">
@@ -54,17 +57,68 @@
 
 
     <main class="container">
-        <div class="csection">
+        <div class="cstwrap">
             <section class="contents">
+                <h3>Profile(프로필)</h3>
                 <article class="cnt">
                     <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li>
+                            <strong>Name</strong>
+                            <span>김병선</span>
+                        </li>
+                        
+                        <li>
+                            <strong>Brith</strong>
+                            <span>1988.07.28</span>
+                        </li>
+                       
+                        <li>
+                            <strong>E-mail></strong>
+                            <span>rubdin@naver.com</span>
+                        </li>
+                       
+                        <li>
+                            <strong>Address</strong>
+                            <span>경기도 안양시</span>
+                        </li>
+                        
+                        <li>
+                            <strong>University</strong>
+                            <span>연성대학교 컴퓨터소프트 웨어과 졸업</span>
+                        </li>
+                        <li>
+                            <strong>Education</strong>
+                            <span>(NCS) UI/UX 웹&앱 디자인 수료</span>
+                        </li>
                     </ul>   
                 </article>
                 <!-- //.cnt -->
+                <div>
+                    <section class="contents1">
+                        <h3 id="skill">Skill(활용능력)</h3>
+                        <article class="cnt1">
+                            <!-- <ul>
+                            <li>
+                                <a>
+                                    <img src="images/icon/html-5-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="images/icon/CSS3-icon.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="images/icon/js.png">
+                                </a>
+                            </li>
+                        </ul> -->
+                    </article>
+                    <!-- //.cnt1 -->
+                </section>
+                <!-- //.contents1 -->
+            </div>
             </section>
             <!-- //contents -->
         </div>
