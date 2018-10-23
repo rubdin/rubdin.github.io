@@ -94,21 +94,30 @@ body{
 .gnb .dep1 > a{
     position: relative;
     display: inline-block;
-    width: 240px;
+    width: 230px;
     padding: 5px 5px;
     font-size: 18px;
     font-weight: 700;
 }
 .gnb .dep1:hover > a{
+    overflow:hidden;
     background:rgba(0,0,0,.8);
     color:white;
     transition:all .5s;
 }
-.gnb .dep1:hover span{
+.gnb .dep1 span{
+    position:absolute;
+    overflow:hidden;
+    display:none;
+}
+.gnb .dep1 span:hover a{
     display:inline-block;
-    color:white;
+    color:violet;
     font-size:15px;
     text-align:center;
+    float:left;
+    z-index:-1;
+   
 }
 /* favorire zone */
 .favorites{
@@ -132,29 +141,78 @@ body{
 }
 .cstwrap{
     position:relative;
-    top: 10px;
-    left: 130px;
+    top: 60px;
+    left: 240px;
     width:1200px;
 }
 .cstwrap .contents{
     width:100%;
-    margin:0 auto;
+    height:1024px;
+    margin:0 auto;   
+    border:1px solid coral;
 }
 .cstwrap .contents::after{
     content:"";
     display:block;
     clear:both;
 }
+.cstwrap .contents h3{
+    position: absolute;
+    font-size: 35px;
+    padding-left: 10px;
+    text-shadow: -1px -1px 1px #000000,
+    1px 1px 1px #FF7F50;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
 .cstwrap .contents article{
     float:left;
     width:100%;
 }
+.contents .cnt{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 100%;
+}
+.contents .cnt::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.contents .cnt li{
+    position: relative;
+    top: 10px;
+    clear: both;
+    padding: 15px;
+    float: left;
+}
+.contents .cnt strong {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px grey, 
+    1px -1px 1px darkblue;
+}
 
+.contents .cnt span{
+    position: relative;
+    top: -20px;
+    clear: both;
+    padding-left: 250px;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
 /* contents */
-.cstwrap .contents .contents1{
-    position:absolute;
-    top:50px;
-    left:110px;
-    height:560px;
-    background: lightblue;
+
+.cstwrap .contents1{
+    width:100%;
+    height:1024px;
+    margin:0 auto;
+    border:1px red;
 }
