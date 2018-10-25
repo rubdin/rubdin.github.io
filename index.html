@@ -1,164 +1,167 @@
 <!DOCTYPE html>
 <html lang="ko-co">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type ="text/css" href="css/reset.css">
-    <link rel="stylesheet" type ="text/css" href="css/layout.css">
-    <script type ="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
-    <script type ="text/javascript" src="js/jquery/jquery-3.3.1.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type ="text/css" href="css/reset.css">
+	<link rel="stylesheet" type ="text/css" href="css/layout.css">
+	<script type ="text/javascript" src="js/jquery/jquery-3.3.1.min.js"></script>
 	<script type ="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
-    <title>My Portfolio</title>
+	<title>My Portfolio</title>
 </head>
 <body>
-    <div class="headerwrap">
-        <header class="header">
-            <h1 class="logo">
-                <a herf="#">
-                    <img src="images/logo.png" alt="logo">
-                    <span>Byeong Seon Portfolio</span>
-                </a>
-            </h1>
-            <!-- //.logo -->
-            <div class="nav">
-                <ul class="gnb">  
-                    <li class="dep1">
-                        <a href="#">Profile</a>
-                        <span>프로필</span>
-                    </li>                  
-                    <li class="dep1">
-                        <a href="#skill">Skill</a>
-                        <span>활용능력</span>
-                    </li>
-                    <li class="dep1">
-                        <a href="#">Portfolio</a>
-                        <span>포트폴리오</span>
-                    </li>
-                </ul>
-                <!-- //.gnb -->
+	<header class="header">
+		<h1 class="logo">
+			<a herf="#">
+				<img src="images/logo.png" alt="logo">
+			</a>
+		</h1>
+		<!-- //.logo -->
+		<nav class="nav">
+			<ul class="gnb">  
+				<li class="dep1 on">
+					<a href="#section1">Profile</a>
+				</li>                  
+				<li class="dep1">
+					<a href="#section2">Skill</a>
+				</li>
+				<li class="dep1">
+					<a href="#section3">Portfolio</a>
+				</li>
+			</ul>
+			<!-- //.gnb -->
+		</nav>
+		<!-- //.nav -->
 
-                <div class="favorites">
-                    <ul class="favorwrap">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-                <!-- //.favorites -->
-            </div>
-            <!-- //.nav -->
-        </header>
-        <!-- //.header -->
-    </div>
-    <!-- //.headerwrap -->
+		<div class="favorwrap">
+			<h2>Favorites</h2>
+			<ul class="favorites">
+				<li>
+					<a href="https://jquery.com/">Jquery(제이쿼리 사이트)</a>
+				</li>
+				<li>
+					<a href="https://www.w3schools.com/">w3schools(HTML,CSS,JS 코딩예제사이트)</a>
+				</li>
+				<li>
+					<a href="http://entitycode.com/">엔티디 코드 사이트</a>
+				</li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+		<!-- //.favorites -->
+	</header>
+	<!-- //.header -->
 
 
-    <main class="container">
-        <div class="cstwrap">
-            <section class="contents">
-                <h3>Profile(프로필)</h3>
-                <article class="cnt">
-                    <ul>
-                        <li>
-                            <strong>Name</strong>
-                            <span>김병선</span>
-                        </li>
-                        
-                        <li>
-                            <strong>Brith</strong>
-                            <span>1988.07.28</span>
-                        </li>
-                       
-                        <li>
-                            <strong>E-mail></strong>
-                            <span>rubdin@naver.com</span>
-                        </li>
-                       
-                        <li>
-                            <strong>Address</strong>
-                            <span>경기도 안양시</span>
-                        </li>
-                        
-                        <li>
-                            <strong>University</strong>
-                            <span>연성대학교 컴퓨터소프트 웨어과 졸업</span>
-                        </li>
-                        <li>
-                            <strong>Education</strong>
-                            <span>(NCS) UI/UX 웹&앱 디자인 수료</span>
-                        </li>
-                    </ul>   
-                </article>
-                <!-- //.cnt -->
-<<<<<<< HEAD
-                <div>
-                    <section class="contents1">
-                        <h3 id="skill">Skill(활용능력)</h3>
-                        <article class="cnt1">
-<<<<<<< HEAD
-                            <ul>
-=======
-                            <!-- <ul>
->>>>>>> 9e812b7ca1cf6c6c84656b725a76971a8c31156d
-                            <li>
-                                <a>
-                                    <img src="images/icon/html-5-icon.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <img src="images/icon/CSS3-icon.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <img src="images/icon/js.png">
-                                </a>
-                            </li>
-<<<<<<< HEAD
-                        </ul>
-=======
-                        </ul> -->
+	<main class="container">
+		<section id="section1" class="section profile">
+			<h2>Profile(프로필)</h2>
+			<article>
+				<ul>
+					<li>
+						<strong>Name</strong>
+						<span>김병선</span>
+					</li>
+					
+					<li>
+						<strong>Brith</strong>
+						<span>1988.07.28</span>
+					</li>
+				
+					<li>
+						<strong>E-mail</strong>
+						<span>rubdin@naver.com</span>
+					</li>
+				
+					<li>
+						<strong>Address</strong>
+						<span>경기도 안양시</span>
+					</li>
+					
+					<li>
+						<strong>University</strong>
+						<span>연성대학교 컴퓨터소프트 웨어과 졸업</span>
+					</li>
+					<li>
+						<strong>Education</strong>
+						<span>(NCS) UI/UX 웹&앱 디자인 수료</span>
+					</li>
+					<li>
+						<strong>License</strong>
+						<span>1.염색기능사(침엽) 2.운전면허 2종 보통</span>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<!-- //.profile -->
 
-                    </article>
-                    <!-- //.cnt1 -->
-                </section>
-                <!-- //.contents1 -->
-            </div>
+		<section id="section2" class="section skill">
+			<h2>Skill(활용능력)</h2>
+			<article>
+				<ul>
+					<li>
+						<a>
+							<img src="images/icon/html5-icon.png">
+						</a>
+					</li>
+					<li>
+						<a>
+							<img src="images/icon/css3-icon.png">
+						</a>
+					</li>
+					<li>
+						<a>
+							<img src="images/icon/js-icon.png">`
+						</a>
+					</li>
+					<li>
+						<><
+					</li>
+				</ul>
+			</article>
+		</section>
+		<!-- //.skill -->
+		<section id="section3" class="section portfolio">
+			<h2>Portfolio</h2>
+			<article>
+				내용
+			</article>
+		</section>
+		<!-- //.portfolio -->
+	</main>
+	<!-- //.container -->
 
-            <section class="contents1">
-                <!-- <h3>Skill(활용능력)</h3> -->
-                <article class="cnt1">
-                    <ul>
-                        <li>
-                            <a>
-                                <img src="images/icon/html-5-icon.png">
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <img src="images/icon/CSS3-icon.png">
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <img src="images/icon/js.png">
-                            </a>
-                        </li>
-                    </ul>
-                </article>
-                <!-- //.cnt1 -->
-            </section>
-            <!-- //.contents1 -->
-            
-            </section>
-            <!-- //contents -->
-        </div>
-        <!-- //.csection -->
-    </main>
-    <!-- //.container -->
+	<script>
+		$(document).ready(function(){
+			var navBtn = $(".nav > ul > li");
+			var contents = $(".container > .section");
+
+			navBtn.on("click", function(e){
+				e.preventDefault();
+				click_event($(this));
+			});
+
+			function click_event(target){
+				var section = contents.eq(target.index());
+				var offset = section.offset().top;
+
+				$("body, html").stop().animate({scrollTop:offset}, 800, 'easeInOutCubic');
+			}
+
+
+			$(window).on("scroll",function(){
+				var wScroll = $(this).scrollTop();
+
+				contents.each(function(i, e){
+					if(wScroll >= $(e).offset().top){
+						navBtn.removeClass("on").eq(i).addClass("on");
+					}
+				});
+			});
+		});
+	</script>
+	
 </body>
 </html>
