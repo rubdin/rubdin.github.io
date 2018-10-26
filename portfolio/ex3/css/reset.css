@@ -5,17 +5,17 @@ html,body,div,ul,ol,li,dl,dt,dd,p,address,h1,h2,h3,h4,h5,h6,table,tr,thead,tbody
     color:#333;
     font-size:13px;
 	font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;
-	box-sizing:border-box;
+    box-sizing:border-box;
 }
-*::before,
-*::after{
-	content:"";
+::before,
+::after{
+	/* content:""; */
 	margin:0;
 	padding:0;
 	color:#333;
 	font-size:13px;
 	font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;
-	box-sizing:border-box;
+    box-sizing:border-box;
 }
 address,em,i{
     font-style:normal;

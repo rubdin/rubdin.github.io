@@ -1,0 +1,443 @@
+/*상단 영역*/
+.header{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:90px;
+	background:rgba(0,0,0,.8);
+}
+
+.hinner{
+	position:relative;
+	width:1100px;
+	height:90px;
+	margin:0 auto;
+}
+.hinner::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*상단 로고 영역*/
+.hdl{
+	float:left;
+	width:94px;
+	height:29px;
+	padding-top:30px;
+	padding-left:20px;
+}
+.hdl a{
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+.hdl img{
+	width:94px;
+	
+}
+/*탑 메뉴*/
+.header .hdt{
+	position:absolute;
+	top:45px;
+	left:150px;
+	text-align:center;
+}
+.header .hdt li{
+	display:inline-block;
+	margin-left:20px;
+	margin-right:-4px;
+	color:#ffffff;
+	font-size:14px;
+}
+.header .hdt a{
+	color:#ffffff;
+}
+
+/*상단 메뉴 영역*/
+.header .nav{
+	position:relative;
+	float:right;
+	
+}
+.nav .gnb::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*depth1 영역*/
+
+.nav .dep1{
+	position:relative;
+	display:inline-block;
+	float:left;
+	height:90px;
+	padding-top:32px;
+	padding-left:18px;
+	padding-right:18px;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:600;
+	text-align:center;
+}
+
+.nav .dep1 > a{
+	position:relative;
+	color:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+.nav .dep1:hover > a{
+	color:#b9d0ff;
+}
+
+/* .depth2 영역*/
+.nav .dep2{
+	overflow:hidden;
+	position:absolute;
+	top:90px;
+	left:0;
+	width:165px;
+	max-height:0;
+	padding-bottom:0;
+	padding-left:19px;
+	background:rgba(0,0,0,.8);
+	transition:all .5s;
+	opacity:0;
+}
+
+.nav .dep1:hover .dep2{
+	max-height:160px;
+	padding-bottom:15px;
+	opacity:1;
+}
+.nav .dep2 > li{
+	width:100%;
+	color:#ffffff;
+	font-size:14px;
+}
+
+.nav .dep2 > li > a{
+	display:block;
+	width:100%;
+	padding-bottom:10px;
+	padding-right:20px;
+	color:inherit;
+	font-size:inherit;
+	text-align:left;
+}
+
+/*비주얼 영역*/
+.visual{
+	width:100%;
+	height:350px;
+	background:url(../images/visual.png) no-repeat 50% 0;
+	text-indent:-9999em;
+
+}
+/*본문 감싸는 영역*/
+.container{
+	width:1100px;
+	margin:0 auto;
+}
+.container::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/*icon 영역*/
+.iconwarp{
+	width:1100px;
+	height:235px;
+	margin:0 auto;
+	border:1px solid #ededed;
+	text-align:center;
+}
+.iconwarp::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.iconwarp strong{
+	display:inline-block;
+	margin-top:15px;
+	width:100%;
+	
+}
+.icon1{
+	width:275px;
+	height:235px;
+	padding:70px 50px 70px 50px;
+	margin:0 auto;
+	float:left;
+	border:1px solid #ededed;
+	border-right:0;
+	border-bottom:0;
+}
+
+.icon2{
+	width:275px;
+	height:235px;
+	padding:70px 50px 70px 50px;
+	margin:0 auto;
+	float:left;
+	border:1px solid #ededed;
+	border-right:0;
+	border-bottom:0;
+}
+
+.icon3{
+	width:275px;
+	height:235px;
+	padding:70px 50px 70px 50px;
+	margin:0 auto;
+	float:left;
+	border:1px solid #ededed;
+	border-right:0;
+	border-bottom:0;
+}
+
+.icon4{
+	width:275px;
+	height:235px;
+	padding:70px 50px 70px 50px;
+	margin:0 auto;
+	margin-right:-2px;
+	float:left;
+	border:1px solid #ededed;
+	border-right:0;
+	border-bottom:0;
+}
+/*//.아이콘영역*/
+
+/*컨텐츠 영역*/
+.contents{
+	position:relative;
+	top:0;
+	left:0;
+	width:1100px;
+	height:240px;
+	margin:0 auto;
+	border:1px solid #ededed;
+	border-right:0;
+	border-bottom:0;
+}
+.contents::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.cnotice{
+	position:relative;
+	width:275px;
+	height:240px;
+	float:left;
+	padding:40px 50px;
+	border:1px solid #ededed;
+	border-left:1px;
+	border-bottom:1px;
+}
+.cnotice::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.cnotice h2{
+	margin-bottom:30px;
+	font-size:16px;
+	font-weight:700;
+}
+.ctitle1{
+	
+}
+
+.ctitle1 li{
+	width:100%;
+	margin-bottom:8px;
+}
+.contents .more{
+	display:inline-block;
+	position:absolute;
+	top:40px;
+	right:40px;
+}
+.cqa{
+	position:relative;
+	width:275px;
+	height:240px;
+	float:left;
+	padding:40px 50px;
+	border:1px solid #ededed;
+	border-left:1px;
+	border-bottom:1px;
+}
+.cqa h2{
+	margin-left:10px;
+	margin-bottom:30px;
+	font-size:16px;
+	font-weight:700;
+}	
+.ctitle2{
+	margin-top:10px;
+	margin-left:15px;
+	width:275px;
+	height:240px;
+	
+}
+.ctitle2::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.ctitle2 li{
+	width:100%;
+	padding-bottom:8px;
+}
+.galley{
+	position:relative;
+	width:550px;
+	height:240px;
+	padding:40px 50px;
+	float: right;
+	margin-right: -2px;
+	border:1px solid #ededed;
+	border-left:1px;
+	border-bottom:1px;
+}
+.galley h2{
+	margin-bottom:15px;
+	font-size:16px;
+	font-weight:700;
+}
+.galley ul{
+	text-align:center;
+}
+.galley li{
+	display:inline-block;
+	width:95px;
+	height:95px;
+	overflow:hidden;
+	border-radius:50%;
+}
+.galley li a{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+
+.galley li a img{
+	width:100%;
+	height:100%;
+}
+.galley li a span{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	line-height:95px;
+	background:rgba(0,0,0,.5);
+	color:#ffffff;
+}
+.galley li a:hover span{
+	display:block;
+}
+.galley .more{
+	display:inline-block;
+	position:absolute;
+	top:40px;
+	right:40px;
+	float:right;
+}
+
+/*하단 영역*/
+.footer{
+	width:100%;
+	background:#222222
+}
+.footer .fbox{
+	width:1100px;
+	margin:0 auto;
+	padding:35px 0;
+	text-align:center;
+	
+}
+.footer .ftop{
+	width:1100px;
+	height:230px;
+	color:#666666;
+}
+.ftop dt{
+	display:inline-block;
+	position:relative;
+	margin-bottom:45px;
+	color:#ffffff;
+	font-size:20px;
+	
+}
+.ftop dt::after{
+	content:"";
+	display:inline-block;
+	position:absolute;
+	bottom:-10px;
+	left:50%;
+	width:38px;
+	height:3px;
+	margin-left:-19px;
+	background:#9bbcff;
+}
+.ftop dd{
+	color:#666666;
+	font-size:13px;
+}
+.ftop .tel{
+	margin:0 0 5px 0;
+	font-size:26px;
+}
+.fmenu{
+	margin:0 0 40px 0;
+	color:#999999;
+	font-size:14px;
+}
+.fmenu li{
+	display:inline-block;
+	margin-right:5px;
+	padding-top:40px;
+	color:inherit;
+	font-size:inherit;
+}
+.fmenu li::after{
+	content:"·";
+	display:inline-block;
+	margin-left:9px;
+	color:#999999;
+	font-size:13px;
+}
+.fmenu li:last-child{
+	margin-right:0;
+}
+.fmenu li:last-child::after{
+	display:none;
+}
+.fmenu a{
+	color:inherit;
+	font-size:inherit;
+}
+.footer .fbottom{
+	padding:45px 0;
+	border-top:1px solid #333333;
+	color:#444444;
+	font-size:14px;
+	text-align:left;
+}
+.fbottom .fl{
+	float:right;
+}
+.fbottom .cr{
+	color:inherit;
+	font-size:inherit;
+}
