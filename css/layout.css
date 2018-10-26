@@ -134,7 +134,8 @@ html,body{
 }
 
 /* profile */
-.profile { 
+.profile {
+	width:100%;
 	/* background :linear-gradient(40deg, #d299c2, #fef9d7)	 */
 }
 .profile::after{
