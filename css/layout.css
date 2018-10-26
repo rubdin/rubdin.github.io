@@ -70,29 +70,30 @@ html,body{
 .gnb .dep1:hover > a,
 .gnb .on > a{
 	overflow:hidden;
-	background:rgba(0,0,0,.8);
-	color:white;
+	background:rgba(255,255,255,.7);
+	color:black;
 	transition:all .5s;
 }
 /* favorire zone */
 .favorwrap{
 	width: 100%;
 	margin-top: 10px;
-	background:rgb(1,179,219);
 }
 .favorwrap h2{
 	position: relative;
     width:100%;
     padding:5px 10px;
     font-size:18px;
-    font-weight:700;
+	font-weight:700;
+	background:silver;
 }
 .favorites{
 	width:100%;
 }
 .favorites li{
 	height:100%;
-	margin:0 auto;
+	padding:10px 10px;
+	color:royalblue;
 }
 .favorites a{
 	font-size:18px;
@@ -100,7 +101,7 @@ html,body{
 	text-align:center;
 	clear:both;
 	padding-left:10px;
-	background: rgb(1,179,219);
+	color:royalblue;
 }
 
 /* main zone*/
@@ -123,8 +124,8 @@ html,body{
 	height:60px;
 	padding:10px 10px;
 	font-size: 24px;
-	font-weight: 400;
-	background:darkgray;
+	font-weight: 500;
+	background:rgba(192,192,192,.8);
 	text-align: center;
 }
 .section article{
@@ -190,10 +191,16 @@ html,body{
 .skill li {
 	height:100%;
 }
-.skill a > img{
-	width:330px;
-	height:330px;
+.skill span{
+	font-size:20px;
+	font-weight:700;
 	float:left;
+}
+.skill a > img{
+    width: 355px;
+    height: 355px;
+    padding: 20px;
+    float: left;
 }
 
 /* portfolio */
