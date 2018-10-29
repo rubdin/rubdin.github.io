@@ -212,7 +212,7 @@ html,body{
 .portfolio li{
 	float:left;
 	width:50%;
-	padding:10px;
+	padding:5px;
 }
 .portfolio li:nth-child(2n+1){
 	clear:both;
@@ -240,11 +240,13 @@ html,body{
 	font-size:20px;
 	font-weight:700;
 	color:wheat;
+	padding:5px;
 }
 #stext{
 	font-size:18px;
 	font-weight:500;
 	color:white;
+	padding:5px;
 }
 
 

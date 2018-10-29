@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>스킵 네비게이션 css 처리방식</title>
+    <style>
+        .skipnav{
+            width:100%;
+            height:1px;
+            margin:-1px 0 0;
+        }
+        .skipnav abbr{
+            overflow:hidden;
+            position:absolute;
+            width:100%;
+            height:1px;
+            line-height:0;
+            
+
+
+        }
+
+    </style>
+</head>
+<body>
+   <div class="skipnav">
+       <a href="#cTitle">본문 내용 바로가기</a>
+       <a href="#nav">메뉴 내용 바로가기</a>
+       <a href="#footer">하단 내용 바로가기</a>
+
+   </div>
+</body>
+</html>
