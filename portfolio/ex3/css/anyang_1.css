@@ -1,0 +1,432 @@
+/*상단 헤더 부분*/
+.header{
+	position:relative;
+	top:0;
+	left:0;
+	height:120px;
+	width:1025px;
+	margin:0 auto;
+}
+
+/* 상단 로고 영역 */
+.logo{	
+	width:100%;
+	height:80px;
+	margin:0 auto;
+	margin-top:30px;	
+}
+
+.logo::after{
+	content:"";
+	display:block;
+	clear:both;	
+}
+
+/* 상단 탑메뉴 감싸는 영역 */
+.header .tnbwrap{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+/* 탑메뉴 영역 */
+.header .tnbwrap .tnb{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.header .tnbwrap .tnb li {
+	display:inline-block;
+	margin-left:5px;
+	line-height:1;
+	color:#000000;
+	font-size:12px;
+}
+.header .tnbwrap .tnb a{
+	line-height:1;
+	color:inherit;
+}
+.header .tnbwrap .tnb{
+	position:absolute;
+	display:inline-block;
+	width:100%;
+	height:120px;
+	margin-top:-105px;
+	margin-left:-250px;
+	margin-bottom:90px;
+}
+.header .tnbwrap .tnb1{
+	position: absolute;
+    top: -30px;
+    left: 540px;
+    margin-top: 30px;
+    margin-left: -10px;
+    width: 272px;
+    height: 45px;
+    float: left;
+} 
+/* 텝메뉴 영역  */
+.nav {
+    display:inline-block;
+    margin:0 auto;
+    width:100%;
+    height:100%;
+}
+.nav::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.header .nav .tapmenu{
+	position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 55px;
+    margin-top: 135px;
+    margin: 0 auto;
+}
+
+/*컨텐츠 상단 영역*/
+.main{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background-image:url(../images/visual_bg.gif);
+	background-size:1025px 300px;
+	background-repeat:repeat-x;
+
+	
+}
+.main a .visual{
+	width:100%;
+	margin:0 auto;
+	
+
+}
+.main .head{
+	width:100%;
+	height:500px;
+}
+
+.main .headwrap{
+	position:relative;
+	top:0;
+	right:0;
+	height:300px;
+	width:1025px;
+	margin:0 auto;
+	background-image:url(../images/main_visual.jpg);
+	background-repeat:no-repeat;
+	background-size:1025px 300px;
+
+}
+.head .headwrap .popupzone{
+	position:absolute;
+	top:0;
+	right:0;
+	width:250px;
+	height:300px;
+
+}
+
+.head .headwrap .popupzone ul{
+	widows:100%;
+	height:100%;
+
+}
+
+.head .headwrap .popupzone li{
+	width:100%;
+	height:100%;
+}
+
+.head .headwrap .popupzone li a{
+	width:100%;
+	height:100%;
+}
+.popupzone li a img{
+	width:235px;
+	height:290px;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+/* 안양 정보 영역 */
+.head .headwrap .aninfo{
+	overflow:hidden;
+	width:1025px;
+	padding-top:300px;
+}
+.head .headwrap .aninfo .aninfowrap{
+	position:relative;
+	display:inline-block;
+}
+.head .headwrap .aninfo .aninfowrap ul{
+	width:100%;
+}
+.head .headwrap .aninfo .aninfowrap ul::after{
+	content:"";
+	display:block;
+	clear:both;
+
+}
+.head .headwrap .aninfo .aninfowrap li{
+	display:inline-block;
+	float:left;
+	width:205px;
+	height:200px;
+}
+.head .headwrap .aninfo .aninfowrap li a{
+	width:100%;
+}
+.headwrap .aninfo li > a img {
+	width:205px;
+	height:200px;
+}
+.headwrap .aninfo li > a .info_bg4 {
+	height:97px;
+}
+.headwrap .aninfo li > a .info_bg5 {
+	height:100px;
+}
+
+/* 컨텐츠 중간 영역*/
+.main .body{
+	position:relative;
+	width:1025px;
+	height:380px;
+	margin:0 auto;
+}
+.body .bbsgp .bodywrap{
+	width:100%;
+}
+.body .bbsgp .blist{
+	position:absolute;
+	height:200px;
+	padding-top:15px;
+	border:1px solid #d2d2d2;
+}
+.body .bbsgp .blist{
+	width: 410px;
+    height: 195px;
+    margin-top: 10px;
+    border: 2px solid #ededed;
+}
+.body .bbsgp .blist li{
+	width:100%;
+	float:left;
+	padding-top:10px;
+	margin-left:15px;
+}
+.body .bbsgp .blist li a.bl{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+.body .bbsgp .blist li a.bl_1{
+	position: absolute;
+    top: 0;
+    left: 70px;
+    width: 65px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+.body .bbsgp .blist li a.bl_2{
+	position: absolute;
+    top: 0;
+    left: 130px;
+    width: 65px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+.body .bbsgp .blist li a{
+	width:100%;
+	padding-right:-4px;
+}
+.body .bbsgp .blist .photo{
+	position:relative;
+	top:0;
+	left:5px;
+	width:410px;
+	height:200px;
+	border:1px solid #ededed;
+}
+
+/* 포토 갤러리 영역 */
+.body .bbsgp .photo .festival{
+	position: absolute;
+	display: inline-block;
+    width: 411px;
+    height: 194px;
+    margin-top: 0;
+    margin-left: 415px;
+}
+.body .bbsgp .festival .photo_1{
+	position: absolute;
+    top: 10px;
+    left: 0;
+    width: 175px;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.body .bbsgp .festival .photo_2{
+	position: relative;
+    top: 0;
+    left: 205px;
+    width: 170px;
+    height: 90px;
+    margin-top: 40px;
+	text-align: center;
+}
+.body .photo .festival h2 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.photo .festival li{
+	position: relative;
+    top: -31px;
+    left: -20px;
+    margin-top: 3px;
+    margin-left: 15px;
+    width: 411px;
+    height: 194px;
+    border: 2px solid #ededed;
+}
+.photo .festival li a{
+	width:100%;
+}
+.photo .festival li a > p{
+	position:absolute;
+	font-size:12px;
+	font-weight:700;
+}
+#text1{
+	position: absolute;
+    top: 150px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+#text2{
+	position: absolute;
+    top: 150px;
+    left: 210px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.body .photo .event{
+	position: relative;
+    display: inline-block;
+    width: 205px;
+    height: 195px;
+    margin-top: 10px;
+    float: right;
+    border: 2px solid #ededed;
+}
+	
+.body .photo .event h2{
+	margin-top:20px;
+	font-size:14px;
+	font-weight:700;
+}
+#text3{
+	position: absolute;
+    top: 150px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.body .infogp{
+	width:100%;
+	margin:0 auto;
+}
+.infogp .infogpwrap .opinon{
+	width:205px;
+	height:180px;
+	margin-top:205px;
+	float: left;
+	border:2px solid #ededed;
+	border-right:0;
+}
+.infogp .infogpwrap .fservice{
+	width: 205px;
+    height: 180px;
+    margin-top:205px;
+	float: left;
+	border:2px solid #ededed;
+	border-right:0;
+}
+.infogp .infogpwrap .minwon{
+	width:205px;
+	height:180px;
+	margin-top:205px;
+	float:left;
+	border:2px solid #ededed;
+	border-right:0;
+}
+.infogp .infogpwrap .bannerzone{
+	width: 410px;
+    height: 180px;
+    margin-top: 0;
+    float: left;
+    border: 2px solid #ededed;
+    border-right: 0
+}
+.body .foot {
+	position:relative;
+	top:0;
+	left:30px;
+	width:1025px;
+	height:40px;
+	margin:0 auto;
+}
+.body .foot::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.foot .footwrap{
+	position: absolute;
+    left:440px;
+    padding-top: 10px;
+    width: 1025px;
+    height: 40px;
+	border: 2px solid #ededed;
+	text-align:center;
+}
+
+/*하단 영역*/
+.footer{
+	width:100%;
+}
+.footerwrap{
+	position: relative;
+    top: 45px;
+    left: 0;
+    width: 1025px;
+    height: 61px;
+    margin: 0 auto;
+}

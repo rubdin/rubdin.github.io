@@ -137,18 +137,64 @@
 			<article>
 				<ul>
 					<li>
-						<a href="portfolio/ex1/index.html" target="_blink" title="새창">E-business</a>
+						<a href="portfolio/ex1/index.html" target="_blink" title="새창">
+							<div class="imgbox">
+								<img src="images/Portfolio_img.jpg" alt="">
+							</div>
+							<dl>
+								<dt class="subtext">E-business</dt>
+								<dd id="stext">
+									첫번째 포트폴리오
+									메인 페이지 제작
+								</dd>
+							</dl>
+						</a>
 					</li>
 					<li>
-						<a href="portfolio/ex2/index.html" target="_blink" title="새창">교회홈페이지</a>
+						<a href="portfolio/ex2/index.html" target="_blink" title="새창">
+							<div class="imgbox">
+								<img src="images/Portfolio_img_1.jpg">
+							</div>
+							<dl>
+								<dt class="subtext">교회 홈페이지</dt>
+								<dd id="stext">
+									두번째 포트폴리오
+									교회 홈페이지 제작
+								</dd>
+							</dl>
+						</a>
 					</li>
 					<li>
-						<a href="portfolio/ex3/index.html" target="_blink" title="새창">반응형홈페이지</a>
+						<a href="portfolio/ex3/index.html" target="_blink" title="새창">
+							<div class="imgbox">
+								<img src="images/Portfolio_img_2.jpg">
+							</div>
+							<dl>
+								<dt class="subtext">관공업소 홈페이지 리뉴월</dt>
+								<dd id="stext">
+									세번째 포트폴리오
+									관공업소 홈페이지 리뉴월
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="portfolio/ex4/index.html" target="_blink" title="새창">
+							<div class="imgbox">
+								<img src="images/portfolio_img_3.jpg">
+							</div>
+							<dl>
+								<dt class="subtext">반응형 홈페이지 리뉴월</dt>
+								<dd id="stext">
+									네번째 포트폴리오 반응형 홈페이지 리뉴월
+								</dd>
+							</dl>
+						</a>
 					</li>
 				</ul>
 			</article>
 		</section>
-		<!-- //.portfolio -->
+			<!-- //.portfolio -->
 	</main>
 	<!-- //.container -->
 
@@ -167,20 +213,19 @@
 				var offset = section.offset().top;
 
 				$("body, html").stop().animate({scrollTop:offset}, 800, 'easeInOutCubic');
-			}
+		}
 
 
-			$(window).on("scroll",function(){
-				var wScroll = $(this).scrollTop();
+		$(window).on("scroll",function(){
+			var wScroll = $(this).scrollTop();
 
-				contents.each(function(i, e){
-					if(wScroll >= $(e).offset().top){
-						navBtn.removeClass("on").eq(i).addClass("on");
-					}
-				});
+			contents.each(function(i, e){
+				if(wScroll >= $(e).offset().top){
+					navBtn.removeClass("on").eq(i).addClass("on");
+				}
 			});
 		});
+	});
 	</script>
-	
 </body>
 </html>
