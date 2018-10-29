@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolop1.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+	<script type ="text/javascript" src="js/jquery/jquery-1.12.4.min.js"></script>
+	<script type ="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
+	<script type ="text/javascript" src="js/plugin/jquery.bxslider.min.js"></script>
+	<title>반응형 홈페이지</title>
+</head>
+<body>
+	<div class="headerwrap">
+		<header class="header">
+			<h1 class="logo">
+				<a href="http://knlre.com/">
+					<img src="images/logo.png">
+				</a>
+			</h1>
+			<!-- //.logo -->
+			<div class="nav">
+				<ul class="gnb">
+					<li class="dep1">
+						<a href="#"><span>회사소개</span></a>
+						<ul class="dep2">
+							<li><a href="#">회사개요</a></li><li><a href="#">인사말</a></li>
+							<li><a href="#">조직도</a></li>
+							<li><a href="#">부동산서비스란?</a></li>
+						</ul>
+						<!-- //.dep2 -->
+					</li>
+					<!-- //.dep1 -->
+					<li class="dep1">
+						<a href="#"><span>사업분야</span></a>
+						<ul class="dep2">
+							<li><a href="#">컨설팅&middot;개발사업</a></li>
+							<li><a href="#">종합시설관리</a></li>
+							<li><a href="#">자산관리</a>
+							</li>
+							<li><a href="#">종합서비스</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dep1">
+						<a href="#"><span>사업실적</span></a>
+						<ul class="dep2">
+							<li><a href="#">분양정보</a>
+							</li>
+							<li><a href="#">시설관리현황</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dep1">
+					<a href="#"><span>업무의뢰</span></a>
+						<ul class="dep2">
+							<li><a href="#">업무의뢰</a>
+							</li>
+							<li><a href="#">협력업체</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dep1">
+						<a href="#"><span>채용정보</span></a>
+						<ul class="dep2">
+							<li><a href="#">채용소식</a>
+							</li>
+							<li><a href="#">온라인입사지원</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dep1">
+						<a href="#"><span>커뮤니티</span></a>
+						<ul class="dep2">
+							<li><a href="#">공지사항</a>
+							</li>
+							<li><a href="#">KNL모임</a>
+							</li>
+							<li><a href="#">보도자료</a>
+							</li>
+						</ul>
+					</li>
+					<!--//.dep1 -->
+				</ul>
+				<!-- //.gnb -->
+			</div>
+			<!-- //.nav -->
+		</header>
+		<!--//.header-->
+	</div>
+	<!--//.headerwrap -->
+
+	<section class="visualwrap">
+		<div class="img">
+			<img src="images/visual_1.jpg">
+			<img src="images/visual_2.jpg">
+		</div>
+		<!-- //.img -->
+		<script>
+		$(function(){
+			$('.visualwrap .img').bxSlider({
+					mode:'horizontal',
+					minSlides: 1,
+					maxSlides: 1,
+					slideMargin: 0,
+					auto:true,
+					pause:4000,
+					pager:true,
+					controls:true,
+					autoHover:true
+				});
+			});
+		</script>
+	</section>
+	<!-- //.visualwrap -->
+
+	<main class="container">
+		<div class="contents"> 
+			<div class="contents1">
+			   <a href="#" class="cnimg"><img src="images/main_bottom_left.png"></a>
+			</div>
+			<!-- //.contents1 -->
+			<div class="contents2">
+				<a href="#" class="cnimg2_1"><img src="images/main_bottom.png"></a>
+				<a href="#"class="cnimg2_2"><img src="images/main_bottom2-1.png"></a>
+			</div>
+			<!-- //.contents2 -->
+			<div class="contents3">
+				<a href="#" class="cnimg3_1"><img src="images/main_bottom3-2.png"></a>
+				<a href="#" class="cnimg3_2"><img src="images/main_bottom4-1.png"></a>
+				<a href="#" class="cnimg3_3"><img src="images/main_bottom5.png"></a>
+			</div>
+			<!-- //.contents3 -->
+		</div>
+		<!-- //.contents-->
+	</main>
+	<!-- //.container-->
+
+	<footer class="footer">
+		<div class="footwrap">
+		   <div class="fcontainer">
+				<p class="name">
+				<span>대표자명:이슬기,김용회</span></p>
+				<p class="tel"><span>전화번호:032-442-6700 | 팩스:032-505-2906</span>
+				<address><span>주소:인천광역시 주안동 136-7 신명프라자 503호</span></address></p>
+				<p class="crn"><span>사업자등록번호: 114-88-00665 | 법인등록번호: 120111-0883753</span></p>
+				<p class="copy"><span> &copy; COPYRIGHT - Knl.ALLRIGHTS RESERVED.</span></p>
+			</div>
+		   <!-- //.fcontainer -->
+		</div>
+		<!-- //.footwrap -->
+	</footer>
+	<!-- //.footer -->
+</body>
+</html>

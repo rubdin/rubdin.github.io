@@ -1,0 +1,105 @@
+/*anyang.css*/
+
+/*헤더 레이아웃*/
+.header{
+	position:relative;
+	top:0;
+	left:0;
+	margin:auto;
+	width:1200px;
+	height:100px;
+	background:#868789;
+}
+
+.hdl{
+	width:125px;
+	height:75px;
+	background:#000000;
+	float:left;
+}
+
+.hdtm{
+	width:100px;
+	height:25px;
+	background:#00ff00;
+	float:right;
+}
+
+.hdm{
+	width:1200px;
+	height:50px;
+	margin-top:600px;
+	background:#000fff;
+	clear:both;
+	
+}
+
+/*//.헤더 레이아웃*/
+
+/*.서론 영역 레이아웃*/
+.section{
+	position:relative;
+	top:25px;
+	left:0;
+	margin:auto;
+	width:1050px;
+	height:960px;
+	background:#bdfcc9;
+}
+
+.spart1{
+	position:absolute;
+	top:-130px;
+	left:427px;
+	right:10px;
+	width:1050px;
+	height:300px;
+	margin-top:257px;
+	background:#fff000;
+}
+
+.spart2{
+	position:absolute;
+	top:170px;
+	left:427px;
+	right:10px;
+	width:1050px;
+	height:200px;
+	margin-top:257px;
+	background:#00ffff;
+}
+/*//.서론 영역 레이아웃*/
+
+/*.본론 영역 레이아웃*/
+.spart3{
+	position:absolute;
+	top:370px;
+	left:427px;
+	right:10px;
+	width:1050px;
+	height:200px;
+	margin-top:257px;
+	background:#f3753a;
+}
+
+.spart4{
+	position:absolute;
+	top:570px;
+	left:427px;
+	right:10px;
+	width:1050px;
+	height:260px;
+	margin-top:257px;
+	background:#73d1f7;
+}
+/*//.본론 영역 레이아웃*/
+
+/*하단 영역 레이아웃*/
+.footer{
+	width:1050px;
+	height:70px;
+	background:#000000;
+	margin-left:427px;
+	clear:both;
+}
+/*//.하단 영역 레이아웃*/
