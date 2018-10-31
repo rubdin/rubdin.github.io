@@ -328,6 +328,7 @@ body{
     font-size:15px;
 }
 .contents4 .listgp1_4 li a span:hover{
+	color:blue;
 	font-weight:bold;
 }
 
