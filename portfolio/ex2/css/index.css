@@ -201,7 +201,7 @@ body{
 .cstwrap .contents article{
 	float:left;
 	width:32%;
-	height:325px;
+	height:360px;
 	border: 1px solid black;
 }
 .cstwrap .contents article:first-child{
@@ -310,12 +310,16 @@ body{
 /* contents4 */
 .cstwrap .contents .contents4 {
 	float:right;
-	height: 155px;
+	height: 190px;
 }
 .contents4 .listgp1_4{
-	padding: 7px;
+	padding: 10px;
     font-size: 15px;
     font-weight: 500;
+}
+.contents4 .listgp1_4 li{
+	position:relative;
+	margin:7px 0;
 }
 .contents4 .listgp1_4 li a{
 	display:block;
@@ -325,7 +329,11 @@ body{
 }
 
 .contents4 .listgp1_4 li a span{
-    font-size:15px;
+	position:absolute;
+	top:0;
+	right:0;
+    font-size: 15px;
+    font-weight: 500;
 }
 .contents4 .listgp1_4 li a span:hover{
 	color:blue;
