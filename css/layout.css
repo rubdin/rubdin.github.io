@@ -134,7 +134,7 @@ html,body{
 }
 
 /* profile */
-.profile {
+.profile{
 	width:100%;
 	/* background :linear-gradient(40deg, #d299c2, #fef9d7)	 */
 }
@@ -210,7 +210,7 @@ html,body{
 }
 .portfolio li{
 	float:left;
-	width:50%;
+	width:100%;
 	padding:5px;
 }
 .portfolio li:nth-child(2n+1){
@@ -221,6 +221,8 @@ html,body{
 	height:100%;
 	display:block;
 }
+
+/* imgbox 영역 */
 .portfolio .imgbox{
 	width:100%;
 	height:340px;
