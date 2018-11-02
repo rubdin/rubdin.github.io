@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko-co">
+<html lang="ko">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,27 +103,27 @@
 			<article>
 				<ul>
 					<li>
-						<a>
+						<a href="#">
 							<img src="images/icon/html5.png" alt="html5">
 						</a>
 					</li>
 					<li>
-						<a>
+						<a href="#">
 							<img src="images/icon/css3.png" alt="css3">
 						</a>
 					</li>
 					<li>
-						<a>
+						<a href="#">
 							<img src="images/icon/js.png" alt="javascript">
 						</a>
 					</li>
 					<li>
-						<a>
+						<a href="#">
 							<img src="images/icon/github.png" alt="github">
 						</a>
 					</li>
 					<li>
-						<a>
+						<a href="#">
 							<img src="images/icon/tortoise svn.png" alt="tortoise svn">
 						</a>
 					</li>
@@ -210,17 +210,22 @@
 				var offset = section.offset().top;
 
 				$("body, html").stop().animate({scrollTop:offset}, 800, 'easeInOutCubic');
-		}
-		$(window).on("scroll",function(){
-			var wScroll = $(this).scrollTop();
+			}
+			$(window).on("scroll",function(){
+				var wScroll = $(this).scrollTop();
 
-			contents.each(function(i, e){
-				if(wScroll >= $(e).offset().top){
-					navBtn.removeClass("on").eq(i).addClass("on");
-				}
+				contents.each(function(i, e){
+					if(wScroll >= $(e).offset().top){
+						navBtn.removeClass("on").eq(i).addClass("on");
+					}
+				});
 			});
+			/* $(window).on('load resize', function(){
+				if($(window).width() > 800){
+					
+				}
+			}) */
 		});
-	});
 	</script>
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
