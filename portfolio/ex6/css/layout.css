@@ -26,77 +26,77 @@ html,body{
 
 /* tapmenu 영역 */
 .nav{
-    width:100%;
-    margin:0 auto;
+	width:100%;
+	margin:0 auto;
 }
 .nav .gnb{
-    width:100%;
-    padding:0 10px;
+	width:100%;
+	padding:0 15px;
 }
 .nav .gnb::after{
-    content:"";
-    display:block;
-    clear:both;
+	content:"";
+	display:block;
+	clear:both;
 }
-
-/* dpeth 1 영역*/
+/* depth 1 영역*/
 .nav .dep1{
-    position:relative;
-    top:0;
-    left:0;
-    bottom:0;
-    display:inline-block;
-    height:110px;
-    padding:20px 15px;
-    text-align:center;
+	position: relative;
+	top:-40px;
+    left: 100px;
+    bottom: 40px;
+    display: inline-block;
+    height: 110px;
+    padding: 35px 15px;
+    text-align: center;
 }
-.nav .dep1 > a{
-    position:relative;
-    font-size:22px;
-    font-weight:500;
-
+.nav .dep1 > a {
+	position:relative;
+	font-size:20px;
+	font-weight:400;
 }
 .nav .dep1 span{
-    font-size:22px;
-    font-weight:700;
+	font-size:20px;
+	font-weight:400;
 }
 .nav .dep1:hover > a span{
-
+	font-size:22px;
+	font-weight:600;
+	color:black;
 }
 
-/* depth2 영역 */
+/* depth2 */
 .nav .dep2 li a:hover{
-    color:lightblue;
-    font-weight:600;
-    font-style:italic
+	color:skyblue;
+	font-weight:600;
+	font-style:oblique;
 }
-.nav .dep2{
-    overflow:hidden;
-    position:absolute;
-    top:0;
-    width:100%;
-    background:rgba(128,128,128,.5);
-    text-align:center;
-    opacity:0;
-    z-index:1;
+.nav .dep2 {
+	overflow: hidden;
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
 }
 .nav .dep1:hover .dep2{
-    max-height:150px;
-    padding-bottom:15px;
-    opacity:1;
+	max-height:160px;
+	padding-bottom:15px;
+	opacity:1;
 }
 .nav .dep2 > li{
-    width:100%;
-    color:white;
-    font-size:16px;
+	width:100%;
+	color:white;
+	font-size:14px;
 }
 .nav .dep2 > li > a{
-    display:inline-block;
-    width:100%;
-    padding:5px;
-    color:inherit;
-    font-size:inherit;
-    text-align:left;
+	display: inline-block;
+    width: 100%;
+    padding: 5px;
+    color: inherit;
+	font-size: inherit;
+	text-align:left;
 }
 
 /* logo 영역 */
@@ -104,28 +104,26 @@ html,body{
     width:240px;
     height:110px;
 }
-.logo::after{
-    content:"";
-    display:block;
-    clear:both;
-}
-.logo img{
-    float:left;
-    width:240px;
-    height:110px;
-    margin:30px 15px 30px;
+
+.logo img {
+	float: left;
+    width: 240px;
+    height: 110px;
 }
 
 /* visual 영역 */
 .visualwrap{
     width:100%;
     height:660px;
+    background:rgba(65,105,225,.5);
     margin:0 auto;
-    border:1px solid royalblue;
 }
-.visual{
-    height:100%;
-    margin:0 auto;
+.visualwrap img{
+    position: relative;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 660px;
 }
 .visual::after{
     content:"";
