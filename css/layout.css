@@ -170,7 +170,7 @@ html,body{
 	font-size: 18px;
 	font-weight: 700;
 	border: 1px solid #000;
-	border-bottom: 1;
+	border-bottom:1px solid #000;
 	color: black;
 	text-shadow: 1px 1px 1px lightgreen;
 	text-align:center;
