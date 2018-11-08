@@ -341,9 +341,9 @@ html,body{
 		display: none;
 	}
 	.profile span {
-		display: table-cell;
-		padding-top: 35px;
-		padding-left: 15px;
+	    display: block;
+		padding-top: 20px;
+		padding-left: 20px;
 		font-size: 18px;
 		font-weight: 600;
 		color: black;
