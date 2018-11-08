@@ -226,7 +226,7 @@ html,body{
 	display:block;
 }
 
-/* imgbox 영역 */
+/* imgbox ì˜ì—­ */
 .portfolio .imgbox{
 	width:100%;
 	margin:0 auto;
@@ -254,9 +254,9 @@ html,body{
 }
 
 
-/* 미디어 쿼리 */
+/* ë¯¸ë””ì–´ ì¿¼ë¦¬ */
 @media (max-width:800px){
-	/* 상단 영역 */
+	/* ìƒë‹¨ ì˜ì—­ */
 	.header {
 		width: 100%;
 		height: auto;
@@ -293,7 +293,7 @@ html,body{
 	.favorwrap{
 		display:none;
 	}
-	/* 컨텐츠 영역 */
+	/* ì»¨í…ì¸  ì˜ì—­ */
 	.container {
 		padding: 60px 0 0;
 		padding-left: 0;
@@ -566,7 +566,7 @@ html,body{
 		display:block;
 	}
 	
-	/* imgbox 영역 */
+	/* imgbox ì˜ì—­ */
 	.portfolio .imgbox{
 		width:100%;
 		margin:0 auto;
@@ -586,17 +586,18 @@ html,body{
 		font-weight: 700;
 		color: black;
 		padding: 5px;
+		text-align: center;
 	}
 	
 	#stext{
 		font-size: 15px;
 		font-weight: 500;
-		color: white;
+		color: black;
 	}
 	
-	/* 미디어 쿼리 */
+	/* ë¯¸ë””ì–´ ì¿¼ë¦¬ */
 	@media (max-width:800px){
-		/* 상단 영역 */
+		/* ìƒë‹¨ ì˜ì—­ */
 		.header {
 			width: 100%;
 			height: auto;
@@ -633,7 +634,7 @@ html,body{
 		.favorwrap{
 			display:none;
 		}
-		/* 컨텐츠 영역 */
+		/* ì»¨í…ì¸  ì˜ì—­ */
 		.container {
 			padding: 60px 0 0;
 			padding-left: 0;
