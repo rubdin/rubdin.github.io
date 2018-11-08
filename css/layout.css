@@ -458,13 +458,13 @@ html,body{
 	}
 	.section h2{
 		position: relative;
-		z-index: 1;
 		width: 100%;
 		padding: 10px 10px;
 		font-size: 24px;
 		font-weight: 500;
 		background: rgba(192,192,192,.8);
 		text-align: center;
+		z-index: 1;
 	}
 	.section article{
 		position:relative;
