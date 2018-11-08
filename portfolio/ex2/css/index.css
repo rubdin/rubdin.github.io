@@ -474,18 +474,18 @@ address span {
 	font-size: 14px;
     font-weight: 700;
     padding: 10px 15px;
-    color: rgb(189,192,202);
+    color: black;
     text-align: left;
 }
 .tel span {
     font-size: 14px;
 	font-weight: 700;
-	color:rgb(189,192,202);
+	color:black;
 }
 .date {
     font-size: 14px;
     font-weight: 700;
     padding: 10px 15px;
-    color: rgb(189,192,202);
+	color: black;
     text-align: left;
 }
