@@ -30,8 +30,11 @@ html,body{
 	margin:0 auto;
 }
 .nav .gnb{
-	width:100%;
-	padding:0 15px;
+    position: relative;
+    top:-35px;
+    left:200px;
+    width:100%;
+    padding:5px;
 }
 .nav .gnb::after{
 	content:"";
@@ -120,10 +123,10 @@ html,body{
 }
 .visualwrap img{
     position: relative;
-    top: -20px;
-    left: 0;
-    width: 100%;
-    height: 660px;
+    top:0;
+    left:0;
+    width:100%;
+    height:660px;
 }
 .visual::after{
     content:"";
@@ -134,7 +137,6 @@ html,body{
 /* main 영역 */
 .container{
     width:100%;
-    height:600px;
     margin:0 auto;
     border:1px solid black;
 }
@@ -151,12 +153,48 @@ html,body{
     border:1px solid black;
 }
 .container .contents .csc{
-    width:375px;
+    position: relative;
+    top: -35px;
+    left: 350px;
+    width: 375px;
+    height: 125px;
+    margin: 0 auto;
+    background: rgb(250,235,206);
+}
+.container .contents .csc .customer{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+.csc .customer::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.contents .csc .customer img{
+    width:150px;
     height:125px;
     margin:0 auto;
-    background:rgb(250,235,206);
 
 }
+
+/* location 영역 */
+.container .contents .location{
+    width:100%;
+    margin:0 auto;
+}
+.container .contents .location{
+    position:relative;
+    top:-25px;
+    left:350px;
+    margin:0 auto;
+}
+.container .contents .subtitle{
+    font-size:16px;
+    font-weight:600;
+}
+
+/* produbtion 영역 */
 .container .production{
     width:100%;
     height:380px;
@@ -164,18 +202,51 @@ html,body{
     background:rgba(0,0,255,.5);
     border:1px solid black;
 }
+.container .production::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.container .production h2{
+    font-size:20px;
+    font-weight:600;
+}
+
+/* banner 영역 */
 .container .banner{
     width:100%;
     height:120px;
+    float:left;
     margin:0 auto;
     background:rgba(65,105,225,.5);
     border:1px solid black;
+}
+.container .banner::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.container .banner li{
+    width:100%;
+}
+.container .banner a{
+    height:100%;
+}
+.container .banner a > img{
+    width:162px;
+    height:58px;
+    margin:0 auto;
+    float:left;
+}
+.container .banner h2{
+    font-size:20px;
+    font-weight:600;
 }
 
 /* footer 영역 */
 .footwrap{
     position:relative;
-    top:120px;
+    top:0;
     left:0;
     height:190px;
     margin:0 auto;
