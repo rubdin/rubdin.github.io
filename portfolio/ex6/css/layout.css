@@ -137,6 +137,7 @@ html,body{
 /* main 영역 */
 .container{
     width:100%;
+    height: 750px;
     margin:0 auto;
     border:1px solid black;
 }
@@ -146,19 +147,18 @@ html,body{
     clear:both;
 }
 .container .contents{
-    width:100%;
-    height:220px;
-    margin:0 auto;
-    background:rgba(128,0,128,.5);
-    border:1px solid black;
+    width: 100%;
+    height: 630px;
+    margin: 0 auto;
+    background: rgba(128,0,128,.5);
+    border: 1px solid black;
 }
 .container .contents .csc{
-    position: relative;
-    top: -35px;
-    left: 350px;
     width: 375px;
     height: 125px;
+    float: left;
     margin: 0 auto;
+    margin-right: 120px;
     background: rgb(250,235,206);
 }
 .container .contents .csc .customer{
@@ -175,18 +175,22 @@ html,body{
     width:150px;
     height:125px;
     margin:0 auto;
-
 }
-.container .contents .clist
+.container .contents .clist{
+    width: 375px;
+    height:125px;
+    margin:0 auto;
+    float: left;
+}
 /* location 영역 */
 .container .contents .location{
     width:100%;
     margin:0 auto;
 }
 .container .contents .location{
-    position:relative;
-    top:-25px;
-    left:350px;
+    width: 375px;
+    height: 125px;
+    float: left;
     margin:0 auto;
 }
 .container .contents .subtitle{
@@ -194,36 +198,48 @@ html,body{
     font-weight:600;
 }
 
-/* produbtion 영역 */
-.container .production{
-    width:100%;
-    height:380px;
+/* prodution 영역 */
+.production{
+    position: relative;
+    top: 200px;
+    width: 375px;
+    height: 125px;
     margin:0 auto;
-    background:rgba(0,0,255,.5);
-    border:1px solid black;
-}
-.container .production::after{
-    content:"";
-    display:block;
-    clear:both;
+    float: left;
 }
 .container .production h2{
     font-size:20px;
     font-weight:600;
 }
-
+.production .drink{
+    width:375px;
+    height:120px;
+    margin:0 auto;
+}
+.production .drink img{
+    width:100%;
+    height:100%;
+}
+.ptitle{
+    font-size:18px;
+    font-weight:600;
+}
+.pcnt{
+    font-size:18px;
+    font-weight:600;
+}
 /* banner 영역 */
 .bannerwrap{
-    height:100%;
+    width: 100%;
+    height: 220px;
     margin:0 auto;
 }
 .container .banner{
     width:100%;
-    height:120px;
+    height: 120px;
     float:left;
     margin:0 auto;
     background:rgba(65,105,225,.5);
-    border:1px solid black;
 }
 .container .banner::after{
     content:"";
@@ -249,11 +265,8 @@ html,body{
 
 /* footer 영역 */
 .footwrap{
-    position:relative;
-    top:0;
-    left:0;
-    height:190px;
-    margin:0 auto;
-    background:rgba(238,130,238,.5);
-    border:1px solid black;
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    background: rgba(238,130,238,.5);
 }
