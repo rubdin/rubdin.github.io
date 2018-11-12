@@ -14,9 +14,8 @@ html,body{
     clear:both;
 }
 .headwrap .header{
-    width:100%;
-    height:110px;
-    border:1px solid navy;
+    width: 100%;
+    height: 110px;
 }
 .headwrap .header::after{
     content:"";
@@ -29,12 +28,18 @@ html,body{
 	width:100%;
 	margin:0 auto;
 }
+.nav::after{
+    content:"";
+    display:block;
+    clear:both;
+}
 .nav .gnb{
     position: relative;
-    top:-35px;
-    left:200px;
-    width:100%;
-    padding:5px;
+    top: -40px;
+    left: 200px;
+    width: 100%;
+    background:rgba(0,0,0,.8);
+    color: white;
 }
 .nav .gnb::after{
 	content:"";
@@ -43,8 +48,8 @@ html,body{
 }
 /* depth 1 영역*/
 .nav .dep1{
-	position: relative;
-	top:-40px;
+    position: relative;
+    top: -20px;
     left: 100px;
     bottom: 40px;
     display: inline-block;
@@ -55,33 +60,34 @@ html,body{
 .nav .dep1 > a {
 	position:relative;
 	font-size:20px;
-	font-weight:400;
+	font-weight:600;
 }
 .nav .dep1 span{
 	font-size:20px;
-	font-weight:400;
+    font-weight:600;
+    color:white;
 }
 .nav .dep1:hover > a span{
-	font-size:22px;
+	font-size:20px;
 	font-weight:600;
-	color:black;
+    background:rgba(0,0,0,.8);
 }
 
 /* depth2 */
 .nav .dep2 li a:hover{
 	color:skyblue;
 	font-weight:600;
-	font-style:oblique;
 }
 .nav .dep2 {
-	overflow: hidden;
+    overflow: hidden;
     position: absolute;
-    top: 90px;
-    width: 100%;
-    background: rgba(0,0,0,.8);
-    text-align: center;
-    opacity: 0;
-    z-index: 1;
+    top:65px;
+    right:-5px;
+    width:100%;
+    background:rgba(0,0,0,.8);
+    opacity:0;
+    z-index:1;
+    text-align:center;
 }
 .nav .dep1:hover .dep2{
 	max-height:160px;
@@ -94,12 +100,12 @@ html,body{
 	font-size:14px;
 }
 .nav .dep2 > li > a{
-	display: inline-block;
+    display: inline-block;
     width: 100%;
     padding: 5px;
     color: inherit;
-	font-size: inherit;
-	text-align:left;
+    font-size: inherit;
+    text-align: center;
 }
 
 /* logo 영역 */
@@ -109,9 +115,10 @@ html,body{
 }
 
 .logo img {
-	float: left;
+    float: left;
     width: 240px;
     height: 110px;
+    margin-left: 25px;
 }
 
 /* visual 영역 */
@@ -136,10 +143,8 @@ html,body{
 
 /* main 영역 */
 .container{
-    width:100%;
-    height: 750px;
-    margin:0 auto;
-    border:1px solid black;
+    width: 100%;
+    margin: 0 auto;
 }
 .container::after{
     content:"";
@@ -153,18 +158,63 @@ html,body{
     background: rgba(128,0,128,.5);
     border: 1px solid black;
 }
+.container .contents h2{
+    font-size:15px;
+    font-weight:600;
+}
+/* clist 영역 */
+.container .contents .clist{
+    width: 380px;
+    height:260px;
+    margin:0 auto;
+    float: left;
+    border:2px solid navy;
+}
+.container .contents .clist::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.container .contents .clist strong{
+    font-size:15px;
+    font-weight:500;
+}
+.container .contents .clist span{
+    font-size:15px;
+    font-weight:500;
+}
+/* location 영역 */
+.container .contents .location{
+    width: 375px;
+    height: 260px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 50px;
+    border: 2px solid navy;
+}
+.container .contents .location::after{
+    content:"";
+    display:block;
+    clear:both;
+
+}
+
+/* customer 영역 */
 .container .contents .csc{
     width: 375px;
     height: 125px;
     float: left;
     margin: 0 auto;
-    margin-right: 120px;
+    margin-left: 50px;
     background: rgb(250,235,206);
 }
 .container .contents .csc .customer{
-    width:100%;
-    height:100%;
-    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    border: 2px solid navy;
+    
 }
 .csc .customer::after{
     content:"";
@@ -172,74 +222,105 @@ html,body{
     clear:both;
 }
 .contents .csc .customer img{
-    width:150px;
-    height:125px;
-    margin:0 auto;
-}
-.container .contents .clist{
-    width: 375px;
-    height:125px;
-    margin:0 auto;
-    float: left;
-}
-/* location 영역 */
-.container .contents .location{
-    width:100%;
-    margin:0 auto;
-}
-.container .contents .location{
-    width: 375px;
+    position: absolute;
+    display: block;
     height: 125px;
-    float: left;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.container .contents .subtitle{
-    font-size:16px;
-    font-weight:600;
+ .contents .csc .customer .weekday{
+    position: relative;
+    top: 10px;
+    left: 150px;
+    float: left;
+    clear: both;
+    font-size: 12px;
+    font-weight: 500;
+}
+.contents .csc .customer .time{
+    position: relative;
+    top:10px;
+    left:150px;
+    padding-top:15px;
+    float:left;
+    clear:both;
+    font-size:12px;
+    font-weight:500;
+}
+.contents .csc .customer .holiday{
+    position: relative;
+    top: 10px;
+    left: 150px;
+    float: left;
+    clear: both;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 /* prodution 영역 */
 .production{
-    position: relative;
-    top: 200px;
     width: 375px;
     height: 125px;
-    margin:0 auto;
+    margin: 0 auto;
     float: left;
+    clear: both;
+}
+.production::after{
+    content:"";
+    display:block;
+    clear:both;
 }
 .container .production h2{
-    font-size:20px;
-    font-weight:600;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 50;
 }
 .production .drink{
     width:375px;
-    height:120px;
+    height:200px;
     margin:0 auto;
 }
 .production .drink img{
-    width:100%;
-    height:100%;
+    position: relative;
+    top: 20px;
+    left: 0;
+    width: 375px;
+    height: 200px;
+    margin: 0 auto;
 }
 .ptitle{
-    font-size:18px;
+    font-size:15px;
     font-weight:600;
+    position: relative;
+    top: 35px;
+    left: 0;
+    background: #3c99c1;
 }
 .pcnt{
-    font-size:18px;
+    position: relative;
+    top: 35px;
+    left: 15px;
+    font-size:15px;
     font-weight:600;
 }
+
 /* banner 영역 */
 .bannerwrap{
     width: 100%;
-    height: 220px;
+    height: 60px;
     margin:0 auto;
 }
 .container .banner{
-    width:100%;
-    height: 120px;
-    float:left;
-    margin:0 auto;
-    background:rgba(65,105,225,.5);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    float: left;
+    margin: 0 auto;
+    background: rgba(65,105,225,.5);
 }
 .container .banner::after{
     content:"";
@@ -253,10 +334,12 @@ html,body{
     height:100%;
 }
 .container .banner a > img{
-    width:162px;
-    height:58px;
-    margin:0 auto;
-    float:left;
+    width: 165px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-left: 100px;
+    float: left;
 }
 .container .banner h2{
     font-size:20px;
@@ -266,7 +349,71 @@ html,body{
 /* footer 영역 */
 .footwrap{
     width: 100%;
-    height: 220px;
+    height: 200px;
     margin: 0 auto;
-    background: rgba(238,130,238,.5);
+    background: #f7f8f9;
+}
+.footwrap::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.footer{
+    width:100%;
+    margin:0 auto;
+}
+.footwrap .footer .fbtn {
+    margin-top: 35px;
+    font-size:12px;
+    font-weight:500;
+}
+.footwrap .fbtn #ftxt{
+    color:#089bd9;
+    padding-top: 10px;
+}
+.footwrap .fbtn #ftxt1{
+    padding:10px;
+}
+address{
+    padding-top:35px;
+    padding-bottom:40px;
+    font-size:12px;
+    font-weight:500;
+}
+address::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+address p{
+    padding-top:15px;
+    padding-left:10px;
+    font-size:12px;
+    font-weight:500;
+    text-align:left;
+}
+.name{
+    padding-left:10px;
+    font-size:inherit;
+    font-weight:inherit;
+}
+.crn{
+    padding-left:10px;
+    font-size:inherit;
+    font-weight:inherit;
+} 
+.tel{
+    padding-left:10px;
+    font-size:inherit;
+    font-weight:inherit;
+}
+.fax{
+    padding-left:10px;
+    font-size:inherit;
+    font-weight:inherit;
+}
+.copy{
+    padding-left:10px;
+    font-size:inherit;
+    font-weight:inherit;
 }
