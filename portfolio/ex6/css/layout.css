@@ -2,7 +2,7 @@ html,body{
     height:100%;
 }
 
-/* header 영역 */
+/* header zone */
 .headwrap{
     width:100%;
     height:110px;
@@ -23,7 +23,7 @@ html,body{
     clear:both;
 }
 
-/* tapmenu 영역 */
+/* tapmenu zone*/
 .nav{
 	width:100%;
 	margin:0 auto;
@@ -45,7 +45,7 @@ html,body{
 	clear:both;
 }
 
-/* depth 1 영역*/
+/* depth 1 zone*/
 .nav .dep1{
     position: relative;
     top: -20px;
@@ -71,7 +71,7 @@ html,body{
     background:rgba(255,255,255,.8);
 }
 
-/* depth2 */
+/* depth 2  zone*/
 .nav .dep2 li a:hover{
 	color:#089bd9;
 	font-weight:400;
@@ -106,7 +106,7 @@ html,body{
     text-align: center;
 }
 
-/* logo 영역 */
+/* logo zone­ */
 .logo {
     width:240px;
     height:110px;
@@ -119,7 +119,7 @@ html,body{
     margin-left: 25px;
 }
 
-/* visual 영역 */
+/* visual zone*/
 .visualwrap{
     width:100%;
     height:660px;
@@ -139,7 +139,7 @@ html,body{
     clear:both;
 }
 
-/* main 영역 */
+/* main zone*/
 .container{
     width: 100%;
     margin: 0 auto;
@@ -150,19 +150,21 @@ html,body{
     clear:both;
 }
 .container .contents{
+    position: relative;
+    top: 0;
+    left: 100px;
     width: 100%;
     height: 630px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 .container .contents h2{
     position: relative;
     top: -30px;
-    font-size:16px;
+    font-size: 20px;
     font-weight:600;
 }
 
-/* clist 영역 */
+/* clist zone */
 .container .contents .clist{
     width: 380px;
     height:260px;
@@ -179,8 +181,10 @@ html,body{
 .container .contents .clist strong{
     position: relative;
     top: 20px;
-    font-size: 15px;
+    left: 10px;
+    font-size: 13px;
     font-weight: 500;
+    vertical-align: baseline;
 }
 .container .contents .clist span{
     position: relative;
@@ -188,9 +192,10 @@ html,body{
     left: 180px;
     font-size:16px;
     font-weight:500;
+    vertical-align: baseline;
 }
 
-/* location 영역 */
+/* location zone */
 .container .contents .location{
     width: 375px;
     height: 260px;
@@ -207,7 +212,7 @@ html,body{
 
 }
 
-/* customer 영역 */
+/* customer zone */
 .container .contents .csc{
     width: 375px;
     height: 125px;
@@ -268,7 +273,7 @@ html,body{
     font-weight: 500;
 }
 
-/* prodution 영역 */
+/* prodution zone­ */
 .production{
     width: 375px;
     height: 125px;
@@ -296,7 +301,7 @@ html,body{
 .production .drink img{
     position: relative;
     top: 20px;
-    left: 0;
+    left: 5px;
     width: 375px;
     height: 200px;
     margin: 0 auto;
@@ -308,22 +313,23 @@ html,body{
     font-weight:600;
     position: relative;
     top: 35px;
-    left: 0;
+    left: 10px;
     background: #3c99c1;
 }
 .pcnt{
     position: relative;
     top: 35px;
-    left: 15px;
+    left: 20px;
     font-size:16px;
     font-weight:600;
 }
 
-/* banner 영역 */
+/* banner zone­ */
 .bannerwrap{
     width: 100%;
     height: 60px;
     margin:0 auto;
+    margin-left: 100px;
 }
 .container .banner{
     position: relative;
@@ -362,12 +368,13 @@ html,body{
 	font-weight:600;
 }
 
-/* footer 영역 */
+/* footer zone */
 .footwrap{
     width: 100%;
     height: 200px;
     margin: 0 auto;
-    background: #f7f8f9;
+    margin-left: 100px;
+    color: #f7f8f9;
 }
 .footwrap::after{
     content:"";
@@ -380,6 +387,7 @@ html,body{
 }
 .footwrap .footer .fbtn {
     margin-top: 35px;
+    margin-left: 0;
     font-size:12px;
     font-weight:500;
 }
@@ -391,7 +399,7 @@ html,body{
     padding:10px;
 }
 
-/* address 영역 */
+/* address zone*/
 address{
     padding-top:35px;
     padding-bottom:40px;
@@ -405,7 +413,7 @@ address::after{
 }
 address p{
     padding-top:15px;
-    padding-left:10px;
+    padding-left: 0;
     font-size:12px;
     font-weight:500;
     text-align:left;
@@ -431,7 +439,10 @@ address p{
     font-weight:inherit;
 }
 .copy{
-    padding-left:10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
     font-size:inherit;
     font-weight:inherit;
 }
