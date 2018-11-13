@@ -60,7 +60,7 @@ html,body{
 .nav .dep1 > a {
 	position:relative;
 	font-size:20px;
-	font-weight:600;
+    font-weight:600;
 }
 .nav .dep1 span{
 	font-size:16px;
@@ -68,14 +68,17 @@ html,body{
 	color: black;
 }
 .nav .dep1:hover > a span{
-	font-size:16px;
+    font-size:16px;
+    font-weight:700;
+    color:#089bd9;
     background:rgba(255,255,255,.8);
 }
 
 /* depth 2  zone*/
 .nav .dep2 li a:hover{
 	color:#089bd9;
-	font-weight:400;
+    font-weight:400;
+    transition:all .5s;
 }
 .nav .dep2 {
     overflow: hidden;
@@ -90,8 +93,9 @@ html,body{
 }
 .nav .dep1:hover .dep2{
 	max-height:160px;
-	padding-bottom:15px;
+    padding-bottom:15px;
 	opacity:1;
+    transition:all .5s;
 }
 .nav .dep2 > li{
 	width:100%;
@@ -107,7 +111,7 @@ html,body{
     text-align: center;
 }
 
-/* logo zoneÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ */
+/* logo zone */
 .logo {
     width:240px;
     height:110px;
