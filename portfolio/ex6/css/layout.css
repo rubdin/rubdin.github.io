@@ -36,25 +36,24 @@ html,body{
 .nav .gnb{
     position: relative;
     top: -40px;
-    left: 200px;
+    left: 560px;
     width: 100%;
-    background:rgba(0,0,0,.8);
-    color: white;
 }
 .nav .gnb::after{
 	content:"";
 	display:block;
 	clear:both;
 }
+
 /* depth 1 영역*/
 .nav .dep1{
     position: relative;
     top: -20px;
-    left: 100px;
+    left: 110px;
     bottom: 40px;
     display: inline-block;
     height: 110px;
-    padding: 35px 15px;
+    padding: 35px 35px;
     text-align: center;
 }
 .nav .dep1 > a {
@@ -63,20 +62,19 @@ html,body{
 	font-weight:600;
 }
 .nav .dep1 span{
-	font-size:20px;
-    font-weight:600;
-    color:white;
+	font-size:16px;
+	font-weight:400;
+	color: black;
 }
 .nav .dep1:hover > a span{
-	font-size:20px;
-	font-weight:600;
-    background:rgba(0,0,0,.8);
+	font-size:16px;
+    background:rgba(255,255,255,.8);
 }
 
 /* depth2 */
 .nav .dep2 li a:hover{
-	color:skyblue;
-	font-weight:600;
+	color:#089bd9;
+	font-weight:400;
 }
 .nav .dep2 {
     overflow: hidden;
@@ -84,7 +82,7 @@ html,body{
     top:65px;
     right:-5px;
     width:100%;
-    background:rgba(0,0,0,.8);
+    background: rgba(255,255,255,.8);
     opacity:0;
     z-index:1;
     text-align:center;
@@ -96,7 +94,7 @@ html,body{
 }
 .nav .dep2 > li{
 	width:100%;
-	color:white;
+	color:black;
 	font-size:14px;
 }
 .nav .dep2 > li > a{
@@ -155,18 +153,21 @@ html,body{
     width: 100%;
     height: 630px;
     margin: 0 auto;
-    background: rgba(128,0,128,.5);
     border: 1px solid black;
 }
 .container .contents h2{
-    font-size:15px;
+    position: relative;
+    top: -30px;
+    font-size:16px;
     font-weight:600;
 }
+
 /* clist 영역 */
 .container .contents .clist{
     width: 380px;
     height:260px;
     margin:0 auto;
+    margin-top: 30px;
     float: left;
     border:2px solid navy;
 }
@@ -176,20 +177,27 @@ html,body{
     clear:both;
 }
 .container .contents .clist strong{
-    font-size:15px;
-    font-weight:500;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .container .contents .clist span{
-    font-size:15px;
+    position: relative;
+    top:20px;
+    left: 180px;
+    font-size:16px;
     font-weight:500;
 }
+
 /* location 영역 */
 .container .contents .location{
     width: 375px;
     height: 260px;
-    float: left;
     margin: 0 auto;
+    margin-top: 30px;
     margin-left: 50px;
+    float: left;
     border: 2px solid navy;
 }
 .container .contents .location::after{
@@ -205,16 +213,17 @@ html,body{
     height: 125px;
     float: left;
     margin: 0 auto;
+    margin-top: 30px;
     margin-left: 50px;
     background: rgb(250,235,206);
 }
 .container .contents .csc .customer{
     width: 100%;
-    height: 100%;
+    height: 125px;
     float: left;
     margin: 0 auto;
+    margin-top: 2px;
     border: 2px solid navy;
-    
 }
 .csc .customer::after{
     content:"";
@@ -224,13 +233,15 @@ html,body{
 .contents .csc .customer img{
     position: absolute;
     display: block;
+    width: 150px;
     height: 125px;
     margin: 0 auto;
+    margin-top: -18px;
 }
  .contents .csc .customer .weekday{
     position: relative;
     top: 10px;
-    left: 150px;
+    left: 160px;
     float: left;
     clear: both;
     font-size: 12px;
@@ -239,7 +250,7 @@ html,body{
 .contents .csc .customer .time{
     position: relative;
     top:10px;
-    left:150px;
+    left: 160px;
     padding-top:15px;
     float:left;
     clear:both;
@@ -249,7 +260,7 @@ html,body{
 .contents .csc .customer .holiday{
     position: relative;
     top: 10px;
-    left: 150px;
+    left: 160px;
     float: left;
     clear: both;
     padding-top: 15px;
@@ -289,9 +300,11 @@ html,body{
     width: 375px;
     height: 200px;
     margin: 0 auto;
+    border: 2px solid darkgray;
+    border-left: 0;
 }
 .ptitle{
-    font-size:15px;
+    font-size:16px;
     font-weight:600;
     position: relative;
     top: 35px;
@@ -302,7 +315,7 @@ html,body{
     position: relative;
     top: 35px;
     left: 15px;
-    font-size:15px;
+    font-size:16px;
     font-weight:600;
 }
 
@@ -341,9 +354,12 @@ html,body{
     margin-left: 100px;
     float: left;
 }
-.container .banner h2{
-    font-size:20px;
-    font-weight:600;
+.banner #btxt{
+	position:relative;
+	top:20px;
+	left:5px;
+	font-size:20px;
+	font-weight:600;
 }
 
 /* footer 영역 */
@@ -374,6 +390,8 @@ html,body{
 .footwrap .fbtn #ftxt1{
     padding:10px;
 }
+
+/* address 영역 */
 address{
     padding-top:35px;
     padding-bottom:40px;
