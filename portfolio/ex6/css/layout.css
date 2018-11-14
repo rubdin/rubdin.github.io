@@ -118,9 +118,11 @@ html,body{
 }
 
 .logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
     float: left;
     width: 240px;
-    height: 110px;
     margin-left: 25px;
 }
 
