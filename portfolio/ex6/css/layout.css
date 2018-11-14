@@ -402,29 +402,29 @@ html,body{
 
 /* banner zone */
 .bannerwrap{
-	position:relative;
-	top:0;
-	left:0;
-    width: 100%;
-    height:120px;
-    margin:0 auto;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+	width: 100%;
+	height: 120px;
+	margin: 0px auto;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
 }
 .bannerwrap::after{
     content:"";
     display:block;
     clear:both;
 }
-
+.bannerzone{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
 .banner{
-	position:absolute;
+	position:relative;
 	top:0;
-	left:0;
+	left:100px;
 	width: 100%;
-	height: 120px;
+	height: 100%;
 	display:block;
-	margin: 0 auto;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -487,9 +487,12 @@ html,body{
     margin-left:860px;
     border:1px solid;
 }
-.banner #btxt{
-	display: block;
+.banner h2{
+	position:absolute;
+	top:0;
+	display: inline-block;
 	padding: 45px 45px;
+	margin:0 auto;
 	font-size: 18px;
 	font-weight:600;
 }
@@ -497,7 +500,7 @@ html,body{
 /* footer zone */
 .footwrap{
     width: 100%;
-    height: 190px;
+    height: 100%;
     margin: 0 auto;
     background: #f7f8f9;
     border-top: 1px solid #dbdbdb;
@@ -508,9 +511,13 @@ html,body{
     clear:both;
 }
 .footer{
+	position:relative;
+	top:0;
+	left:100px;
     width:100%;
-    height:100%;
-    margin:0 auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .footwrap .footer .fbtn {
     margin-top: 35px;
