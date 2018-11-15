@@ -50,6 +50,7 @@ html,body{
 .nav .dep1 span{
 	font-size:20px;
 	font-weight:400;
+	color:black;
 }
 .nav .dep1:hover > a span{
 	font-size:22px;
@@ -267,6 +268,7 @@ html,body{
 	font-size:14px;
 	font-weight:800;
 }
+/* address 영역 */
 address{
     font-size: 12px;
 	font-weight: 600;
