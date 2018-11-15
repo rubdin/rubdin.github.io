@@ -170,6 +170,7 @@ html,body{
 
 /* main zone*/
 .container{
+	position: relative;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -180,11 +181,8 @@ html,body{
     clear:both;
 }
 .container .contents{
-  	position: absolute;
-  	top: 90%;
-  	left: 0;
   	width: 100%;
-  	height:100%;
+  	height: 735px;
   	margin: 0 auto;
 }
 .container .contents h2{
@@ -202,8 +200,9 @@ html,body{
 
 /* clist zone */
 .container .contents .clist{
-    position: absolute;
+    position: relative;
     top: 10%;
+    left: 5%;
     width: 375px;
     height: 128px;
     margin:0 auto;
@@ -235,6 +234,7 @@ html,body{
 .container .contents .location{
     position: absolute;
     top: 10%;
+    left: 5%;
     width: 375px;
     height: 128px;
     margin: 0 auto;
@@ -258,6 +258,7 @@ html,body{
 .container .contents .csc{
     position: absolute;
     top: 11%;
+    left: 5%;
     width: 375px;
     height: 125px;
     float: left;
@@ -318,10 +319,10 @@ html,body{
 /* prodution zone */
 .prodwrap{
     position: relative;
-    top: 245px;
+    top: 0;
     left: 0;
-    width: 1225px;
-    height: 345px;
+    width: 100%;
+    height: 100%;
     margin:0 auto;
 }
 .prodwrap::after{
@@ -331,9 +332,8 @@ html,body{
 }
 .production{
     position: absolute;
-    top: 35%;
-    left: 0;
-    width: 100%;
+    top: 55%;
+    left: 5%;
     height: 100%;
     margin: 0 auto;
     float: left;
@@ -364,10 +364,11 @@ html,body{
 }
 .prodwrap .snack{
     position: absolute;
-    top: -3%;
+    top: 1%;
     left: 450px;
     width:375px;
     height:200px;
+    max-width: 375px;
     margin:0 auto;
     float:left;
     clear:both;
@@ -383,10 +384,11 @@ html,body{
 }
 .prodwrap .other{
     position: absolute;
-    top: -3%;
+    top: 1%;
     left:900px;
     width:375px;
     height:200px;
+    max-width: 375px;
     margin:0 auto;
     float:left;
     clear:both;
@@ -427,8 +429,10 @@ html,body{
 
 /* banner zone */
 .bannerwrap{
-	position: relative;
-	top: 80%;
+	position: absolute;
+	top: 85%;
+	left: 0;
+	width: 100%;
 	height: 120px;
 	margin: 0px auto;
 	border-top: 1px solid gray;
@@ -439,12 +443,10 @@ html,body{
     clear:both;
 }
 .banner{
-	position: absolute;
-	top: 0;
-	left: 5%;
 	width: 100%;
 	height: 120px;
-	display:block;
+	margin: 0 auto;
+	float: left;
 }
 .banner::after{
     content:"";
@@ -509,7 +511,7 @@ html,body{
 	position:absolute;
 	top:0;
 	display: inline-block;
-	padding: 45px 0;
+	padding: 45px 45px;
 	margin:0 auto;
 	font-size: 18px;
 	font-weight:600;
@@ -517,11 +519,11 @@ html,body{
 
 /* footer zone */
 .footer{
-    width:100%;
-    height: 200px;
-    display: block;
-    margin-left: 15px;
-    margin-right: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
 }
 .footer::after{
     content:"";
@@ -530,9 +532,11 @@ html,body{
 }
 .footer .footwrap{
     width: 100%;
+    height: 200px;
     margin: 0 auto;
+    margin-top: 20px;
     background: #f7f8f9;
-    border-top: 1px solid #dbdbdb;
+    border-top: 1px solid gray;
 }
 .footwrap::after{
     content:"";
@@ -547,10 +551,10 @@ html,body{
 }
 .footwrap .fbtn #ftxt{
     color:#089bd9;
-    padding-top: 10px;
+    padding: 10px 10px;
 }
 .footwrap .fbtn #ftxt1{
-    padding:10px;
+    padding: 10px 10px;
 }
 
 /* address zone*/
@@ -565,8 +569,8 @@ address span{
     font-weight:500;
 }
 address p{
-    padding-top:15px;
-    padding-left: 0;
+    padding-top: 20px;
+    padding-left: 5px;
     font-size:12px;
     font-weight:500;
     text-align:left;
