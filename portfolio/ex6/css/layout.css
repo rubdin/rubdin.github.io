@@ -129,9 +129,6 @@ html,body{
 
 /* visual zone*/
 .visualwrap{
-    position: relative;
-    top: 0;
-    left: 0;
     width:100%;
     height:660px;
     background:rgba(65,105,225,.5);
@@ -143,6 +140,8 @@ html,body{
     clear:both;
 }
 .visualwrap img{
+    position: relative;
+    top: 25%;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -185,17 +184,16 @@ html,body{
 	font-weight:600;
 	z-index:5;
 }
-.container .contents .csetion{
-	width: 100%;
-    height: 715px;
-    margin: 0 auto;
+.contents .csection{
+	width: 1225px;
+	height: 715px;
+	margin: 0 auto;
 }
 
 /* clist zone */
 .container .contents .clist{
     position: absolute;
     top: 10%;
-    left: 5%;
     width: 375px;
     height: 128px;
     margin:0 auto;
@@ -227,11 +225,10 @@ html,body{
 .container .contents .location{
     position: absolute;
     top: 10%;
-    left: 8%;
     width: 375px;
     height: 128px;
     margin: 0 auto;
-    margin-left: 410px;
+    margin-left: 450px;
     float: left;
 }
 .container .contents .location::after{
@@ -242,7 +239,7 @@ html,body{
 }
 .container .contents .location img{
     position: absolute;
-    top: 0;
+    top: 10%;
     width: 375px;
     margin: 0 auto;
 }
@@ -250,18 +247,16 @@ html,body{
 /* customer zone */
 .container .contents .csc{
     position: absolute;
-    top: 10%;
-    left: 11%;
+    top: 11%;
     width: 375px;
     height: 125px;
     float: left;
     margin: 0 auto;
-    margin-left: 820px;
+    margin-left: 900px;
     background: rgb(250,235,206);
 }
 .container .contents .csc .customer{
     position: absolute;
-    top: 0;
     width: 100%;
     height: 130px;
     float: left;
@@ -437,10 +432,10 @@ html,body{
 }
 .banner{
 	position: absolute;
-	top: 15%;
-	left: 7%;
-	width: 100%;
-	height: 100%;
+	top: -10%;
+	left: 10%;
+	width: 1225px;
+	height: 120px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -508,7 +503,7 @@ html,body{
 	position:absolute;
 	top:0;
 	display: inline-block;
-	padding: 45px 45px;
+	padding: 45px 0;
 	margin:0 auto;
 	font-size: 18px;
 	font-weight:600;
@@ -517,7 +512,8 @@ html,body{
 /* footer zone */
 .footwrap{
     position: relative;
-    top: 5%;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 200px;
     margin: 0 auto;
@@ -531,11 +527,9 @@ html,body{
 }
 .footer{
 	position: absolute;
-	left: 7%;
+	left: 18%;
 	width:100%;
 	height: 200px;
-	max-width: 1200px;
-	max-height: 200px;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
