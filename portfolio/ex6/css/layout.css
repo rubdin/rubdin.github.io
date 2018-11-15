@@ -35,10 +35,12 @@ html,body{
     clear:both;
 }
 .nav .gnb{
-    position: relative;
-    top: -50px;
-    left: 455px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 100%;
+    margin: 0 auto;
+    z-index: 50;
 }
 .nav .gnb::after{
 	content:"";
@@ -129,10 +131,11 @@ html,body{
 
 /* visual zone*/
 .visualwrap{
+    position: relative;
+    display: block;
     width:100%;
     height:660px;
-    background:rgba(65,105,225,.5);
-    margin:0 auto;
+    overflow: hidden;
 }
 .visualwrap::after{
     content:"";
@@ -140,16 +143,23 @@ html,body{
     clear:both;
 }
 .visualwrap img{
-    position: relative;
-    top: 25%;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2000px;
+    height: 660px;
     margin: 0 auto;
+    z-index: 5;
 }
 .visual{
-    width:100%;
+	position: absolute;
+    display: block;
+    left: 50%;
+    top: 0;
+    width: 2000px;
     height: 100%;
-    margin:0 auto;
+    margin-left: -1000px;
+    z-index: 5;
 }
 
 .visual::after{
@@ -526,12 +536,10 @@ html,body{
     clear:both;
 }
 .footer{
-	position: absolute;
-	left: 15%;
 	width:100%;
 	height: 200px;
-	display: inline-block;
-	margin-left: auto;
+	display: block;
+	margin-left: 15px;
 	margin-right: auto;
 }
 .footwrap .footer .fbtn {
