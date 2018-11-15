@@ -137,14 +137,24 @@ html,body{
     background:rgba(65,105,225,.5);
     margin:0 auto;
 }
+.visualwrap::after{
+    content:"";
+    display:both;
+    clear:both;
+}
 .visualwrap img{
-    position: relative;
-    top: 20%;
-    width: 1320px;
+    width: 100%;
     height: 100%;
+    margin: 0 auto;
     max-width: 1320px;
     max-height: 660px;
 }
+.visual{
+    width:100%;
+    height:660px;
+    margin:0 auto;
+}
+
 .visual::after{
     content:"";
     display:block;
@@ -187,7 +197,7 @@ html,body{
 .container .contents .clist{
     position: absolute;
     top: 10%;
-    left: 7%;
+    left: 5%;
     width: 375px;
     height: 128px;
     margin:0 auto;
@@ -219,7 +229,7 @@ html,body{
 .container .contents .location{
     position: absolute;
     top: 10%;
-    left: 7%;
+    left: 8%;
     width: 375px;
     height: 128px;
     margin: 0 auto;
@@ -243,7 +253,7 @@ html,body{
 .container .contents .csc{
     position: absolute;
     top: 10%;
-    left: 7%;
+    left: 11%;
     width: 375px;
     height: 125px;
     float: left;
@@ -305,10 +315,10 @@ html,body{
 /* prodution zone */
 .prodwrap{
     position: relative;
-    top: 45%;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 715px;
     margin:0 auto;
 }
 .prodwrap::after{
@@ -318,24 +328,24 @@ html,body{
 }
 .prodwrap .production{
     position: absolute;
-    top: 15%;
-    left: 7%;
-    width: 375px;
+    top: 35%;
+    left: 5%;
+    width: 685px;
+    max-height: 715px;
     margin: 0 auto;
     float: left;
     clear: both;
 }
 .prodwrap .production h2{
-    position: absolute;
-    top: 55%;
+    position: relative;
+    top: 0;
     left: 0;
     font-size: 20px;
     font-weight: 600;
-    z-index: 50;
 }
 .prodwrap .drink{
     position: absolute;
-    top: 90%;
+    top: 75%;
     width:375px;
     height:200px;
     margin:0 auto;
@@ -345,13 +355,13 @@ html,body{
     width: 375px;
     height: 200px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 10%;
     border: 2px solid darkgray;
     border-left: 0;
 }
 .prodwrap .snack{
     position: absolute;
-    top: 90%;
+    top: 75%;
     left: 450px;
     width:375px;
     height:200px;
@@ -364,14 +374,14 @@ html,body{
     width: 375px;
     height: 200px;
     margin:0 auto;
-    margin-top: 45px;
+    margin-top: 10%;
     float:left;
     clear:both;
     border:2px solid darkgray;
 }
 .prodwrap .other{
     position: absolute;
-    top: 90%;
+    top: 75%;
     left:900px;
     width:375px;
     height:200px;
@@ -384,7 +394,7 @@ html,body{
     width: 375px;
     height: 200px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 10%;
     float: left;
     clear: both;
     border: 2px solid darkgray;
@@ -428,11 +438,6 @@ html,body{
     content:"";
     display:block;
     clear:both;
-}
-.bannerzone{
-    width:100%;
-    height:100%;
-    margin:0 auto;
 }
 .banner{
 	position: absolute;
