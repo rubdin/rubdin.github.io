@@ -445,44 +445,34 @@ html,body{
 	position:absolute;
 	top: 25%;
 	left: 30%;
-	display:inline-block;
+    display:inline-block;
+    border:1px;
 	clear:both;
 	width: 165px;
 	height: 60px;
-	vertical-align:middle;
+    vertical-align:middle;
+    z-index:5;
 }
 .gs25logo{
 	margin-left:10px;
-	border:1px solid;
-	z-index:5;
+	
 }
 .culogo{
 	margin-left:180px;
-	border:1px solid;
-	z-index:5;
-
 }
 .selogo{
 	margin-left:350px;
-	border:1px solid;
-	z-index:5;
 }
 .mslogo{
     margin-left:520px;
-    border:1px solid;
-	z-index:5;
 }
 .hplogo{
     margin-left:690px;
-    border:1px solid;
-	z-index:5;
 }
 .lmlogo{
     margin-left:860px;
-    border:1px solid;
-	z-index:5;
 }
-.banner h2{
+.banner .btitle{
 	position:absolute;
 	top: 5%;
 	left: 18%;
