@@ -53,20 +53,17 @@ html,body{
 /* depth 1  zone*/
 .dep1{
     position:relative;
-    top:0;
-    left:0;
-    display:inline-block;
-    height:110px;
-    text-align:center;
+    display: block;
+    float: left;
+    text-align: center;
 }
 .dep1 > a{
-    position:relative;
-    top:0;
-    left:0;
-    display:inline-block;
-    padding:40px;
-    font-size:12px;
+    display:block;
+    line-height: 110px;
+    padding:0 40px;
+    font-size: 16px;
     font-weight:500;
+    color: #393e40;
 }
 .dep1:hover > a{
     display:block;
@@ -74,19 +71,25 @@ html,body{
     font-weight:500;
     color:#089bd9;
 }
+.dep1 span{
+    display:inline-block;    
+    font-size:16px;
 
+}
 /* depth 2  zone*/
 .nav .dep2 li a:hover{
     color:#089bd9;
 }
+
 .nav .dep2{
-    overflow:hidden;
     position:absolute;
-    left:0;
+    overflow:hidden;
     top:110px;
+    left:0;
     display:none;
     width:100%;
-    padding:0 25px;
+    padding:25px 0;
+    z-index:11;
     border-bottom:3px solid #089bd9;
 }
 .nav .dep1:hover .dep2{
@@ -100,15 +103,16 @@ html,body{
     z-index:15;
 }
 .nav .dep2 > li {
-    width:100%;
+    position: relative;
+    display: block;
+    float: none;
     font-size:12px;
 }
 .nav .dep2 > li > a{
     display:block;
-    width:100%;
-    padding:10px 10px;
-    color:inherit;
-    font-size:inherit;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
 } 
 
 /* visual zone*/
@@ -171,6 +175,29 @@ html,body{
     display:block;
     overflow:hidden;
 }
+
+.more{
+    display:inline-block !important;
+    position:absolute;
+    top:0;
+    left:0;
+    margin:0 !important;
+    padding:0 !important;
+    font-size:0;
+    line-height:0;
+    border:0 !important;
+    overflow:hidden !important;
+}
+.more::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.more span{
+    position:absolute;
+    right:0;
+    top:5px;
+}
 .csc{
     position:relative;
     display:block;
@@ -201,6 +228,7 @@ html,body{
     font-size:13px;
     color:#514cc4;
 }
+
 .holiday{
     display:block;
     padding-top:10px;
@@ -226,7 +254,7 @@ html,body{
 .product section{
     float:left;
     width:1200px;
-    height:240px;
+    height:285px;
     margin:0 0 40px;
 }
 .product section::after{
@@ -237,7 +265,6 @@ html,body{
 .product > div{
     float:left;
     width:373px;
-    height:240px;
     margin:0 0 40px;
 }
 .product a > img{
@@ -247,7 +274,7 @@ html,body{
     vertical-align:middle;
     border:1px solid #dddddd;
 }
-.drink{
+.production{
     position: relative;
     display:block;
     border-left:0;
@@ -279,20 +306,12 @@ html,body{
     color:#606060;
     text-align:center;
 }
-.snack{
-    position: relative;
-    display: block;
-    overflow: hidden;
-}
+
 #ptitle2{
     display:inline-block;
     background:#3cc1be;
 }
-.other{
-    position:relative;
-    display:block;
-    overflow: hidden;
-}
+
 #ptitle3{
     display:inline-block;
     background:#7e7e7e;
@@ -301,6 +320,7 @@ html,body{
     position:relative;
     display:block;
     width:100%;
+    margin:0 0 20px;
     font-size:20px;
     color:#303030;
     overflow:hidden;
