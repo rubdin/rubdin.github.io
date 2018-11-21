@@ -174,13 +174,12 @@ html,body{
     position:relative;
     display:block;
     overflow:hidden;
+    margin-left:32px;
 }
 
 .more{
     display:inline-block !important;
     position:absolute;
-    top:0;
-    left:0;
     margin:0 !important;
     padding:0 !important;
     font-size:0;
@@ -201,10 +200,8 @@ html,body{
 .csc{
     position:relative;
     display:block;
-    float:left;
-    width:373px;
-    height:170px;
     overflow:hidden;
+    margin-left:32px;
 }
 .csc .customer{
     display:block;
