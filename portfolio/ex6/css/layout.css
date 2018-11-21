@@ -330,19 +330,19 @@ html,body{
 }
 .banner{
     position:relative;
-    display:inline-block;
-    margin:0;
-    padding:0;
-    z-index:1;
-    padding-left:170px;
+    display:block;
+    width:1200px;
+    margin:0 auto;
+    overflow:hidden;
 }
-.banner h2{
+.banner .btitle{
     position:absolute;
     display:block;
     left:0;
     top:0;    
     line-height:60px;
     font-size:20px;
+    z-index:15;
     color:#000000;
 }
 .banner ul{
