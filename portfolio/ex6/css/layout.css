@@ -352,7 +352,7 @@ html,body{
 	position:relative;
 	display:block;
 	overflow:hidden;
-	margin-left:30px;
+	margin-left:40px;
 }
 
 
@@ -360,7 +360,7 @@ html,body{
 	position:relative;
 	display:block;
 	overflow:hidden;
-	margin-left:30px;
+	margin-left:40px;
 }
 .csc .customer{
 	display:block;
@@ -601,15 +601,13 @@ address::after{
 	position:relative;
 	display:block;
 	overflow:hidden;
-	margin-left:30px;
+	margin-left:40px;
 }
-
-
 .csc{
 	position:relative;
 	display:block;
 	overflow:hidden;
-	margin-left:30px;
+	margin-left:40px;
 }
 .csc .customer{
 	display:block;
