@@ -200,17 +200,17 @@ body{
 .cstwrap .contents article{
 	float:left;
 	width:32%;
-	height:360px;
-	border: 1px solid black;
+	height: 365px;
 	background-color:white;
+	border: 1px solid black;
 }
 .cstwrap .contents article:first-child{
 	margin-left:0;
 }
 .cstwrap .contents article h2{
 	width: 100%;
-    padding: 10px;
-    background: rgb(247,247,247);
+	padding: 10px;
+	background: rgb(247,247,247);
 	border-bottom: 1px solid slategrey;
 }
 
@@ -220,7 +220,7 @@ body{
     background: white;
 }
 .contents1 .listgp1_1{
-	padding:5px;
+	padding: 15px;
 	font-size:15px;
 	font-weight:500;
 }
@@ -260,13 +260,14 @@ body{
 /* contents2 */
 .contents2{
 	margin-left:2%;
+	/* border: 1px solid black; */
 }
 .contents2 .listgp1_2{
 	overflow:auto;
 	height:270px;
 	padding: 10px;
-    font-size: 15px;
-    font-weight: 600;
+	font-size: 15px;
+	font-weight: 600;
 }
 #subtitle2 span{
 	font-size: 16px;
@@ -316,12 +317,13 @@ body{
 	float:right;
 	height: 170px;
 	margin-bottom:4px;
-    color: white;
+	color: white;
+	border: 1px solid black;
 }
 .contents3 .listgp1_3{
 	overflow:auto;
-    font-size: 15px;
-    font-weight: 500;
+	font-size: 15px;
+	font-weight: 500;
 }
 .contents3 .listgp1_3 li a span{
 	padding:10px;
@@ -348,8 +350,9 @@ body{
 }
 .contents4 .listgp1_4{
 	padding: 5px;
-    font-size: 15px;
-    font-weight: 500;
+	font-size: 15px;
+	font-weight: 500;
+	border: crimson;
 }
 .contents4 .listgp1_4 li{
 	position:relative;
