@@ -66,7 +66,6 @@ body{
 .gnb .dep1{
 	position: relative;
     display: inline-block;
-    float: left;
     text-align: center;
 }
 .gnb .dep1 > a {
@@ -221,7 +220,7 @@ body{
     background: white;
 }
 .contents1 .listgp1_1{
-	padding:10px;
+	padding:5px;
 	font-size:15px;
 	font-weight:500;
 }
@@ -260,7 +259,7 @@ body{
 
 /* contents2 */
 .contents2{
-    margin-left:2%;
+	margin-left:2%;
 }
 .contents2 .listgp1_2{
 	overflow:auto;
@@ -270,7 +269,7 @@ body{
     font-weight: 600;
 }
 #subtitle2 span{
-    font-size: 16px;
+	font-size: 16px;
     font-weight: 600;
     color: black;
 }
@@ -278,6 +277,40 @@ body{
 	color:gray;
 }
 
+/* table */
+.tablewrap{
+	width:100%;
+	margin:0;
+}
+.table{
+	border:1px solid black;
+	border-bottom:0;
+	border-collapse:collapse;
+}
+.table::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.table .ctile{
+	font-size:14px;
+	font-weight:600;
+}
+#list1{
+	border-bottom:1px solid black;
+}
+#list2{
+	border-bottom:1px solid black;
+}
+#list3{
+	border-bottom:1px solid black;
+}
+#list4{
+	border-bottom:1px solid black;
+}
+#list5{
+	border-bottom:1px solid black;
+}
 /* contents3 */
 .cstwrap .contents .contents3 {
 	float:right;
@@ -314,7 +347,7 @@ body{
 	height: 190px;
 }
 .contents4 .listgp1_4{
-	padding: 10px;
+	padding: 5px;
     font-size: 15px;
     font-weight: 500;
 }
@@ -336,7 +369,7 @@ body{
     font-size: 15px;
     font-weight: 500;
 }
-.contents4 .listgp1_4 li a span:hover{
+.contents4 .listgp1_4 li a:hover{
 	color:blue;
 	font-weight:bold;
 }
