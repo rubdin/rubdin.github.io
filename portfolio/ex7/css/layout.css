@@ -22,16 +22,8 @@ html,body{
     width:100%;
     margin:0;
 }
-.gnb{
-    position:absolute;
-    top:0;
-    left:0;
-    height:90px;
-    margin:0 auto;
-    line-height:90px;
-    border:1px solid red;
-}
-.gnb::after{
+
+.nav::after{
     content:"";
     display:block;
     clear:both;
