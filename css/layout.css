@@ -256,7 +256,7 @@ html,body{
 
 /* media 영역*/
 @media (max-width:800px){
-	/*상단 영역*/
+	/*header 영역*/
 	.header {
 		width: 100%;
 		height: auto;
