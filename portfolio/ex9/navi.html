@@ -11,26 +11,62 @@
     <script src="js/jquery/jquery.easing.min.js"></script>
 </head>
 <body>
-    <div class="navbox">
+    <nav class="navbox">
         <ul class="btn-icon">
-            <li><a href="#">메뉴1</a></li>
-            <li><a href="#">메뉴2</a></li>
-            <li><a href="#">메뉴3</a></li>
-            <li><a href="#">메뉴4</a></li>
-            <li><a href="#">메뉴5</a></li>
+            <li class="dep1">
+                <a href="#">메뉴1</a>
+                <ul class="dep2">
+                    <li><a href="#">menu1-1</a></li>
+                    <li><a href="#">menu1-2</a></li>
+                    <li><a href="#">menu1-3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">메뉴2</a>
+                <ul class=="dep2">
+                    <li><a href="#">menu2-1</a></li>
+                    <li><a href="#">menu2-2</a></li>
+                    <li><a href="#">menu2-3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">메뉴3</a>
+                <ul class="dep2">
+                    <li><a href="#">menu3-1</a></li>
+                    <li><a href="#">menu3-2</a></li>
+                    <li><a href="#"></a>menu3-3</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">메뉴4</a>
+                <ul class="dep2">
+                    <li><a href="#">menu4-1</a></li>
+                    <li><a href="#">menu4-2</a></li>
+                    <li><a href="#">menu4-3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">메뉴5</a>
+                <ul class="dep2">
+                    <li><a href="#">menu5-1</a></li>
+                    <li><a href="#">menu5-2</a></li>
+                    <li><a href="#">menu5-3</a></li>
+                </ul>
+            </li>
         </ul>
         <!-- //.btn-icon -->
-    </div>
+    </nav>
     <!--//.navbox -->
     <script>
         $(function(){
+            var rwd = function(){
             if( $(window).width() >= 1024 ){
                 $('.navbox').addclass('pc').removeclass('mo');
             }
             else {
                 $('.navbox').addclass('mo').removeclass('pc');
-            }
-        })
+                }
+            };
         $(window).resize(function(){
             if( $(window).width() >= 1024 ){
                 $('.navbox').addclass('pc').removeclass('mo');
@@ -38,6 +74,11 @@
             else {
                 $('.navbox').addclass('mo').removeclass('pc');
             }
+        })
+        $('.btn-icon').click(function(){
+            $(this).toggleClass('atctive');
+            $('.navbox').toggleClass('atctive');
+            })
         })
     </script>
 </body>
