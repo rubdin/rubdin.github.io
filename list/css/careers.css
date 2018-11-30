@@ -35,6 +35,12 @@ body {
   font-weight: 500;
   padding: 10px;
 }
+.careers li a > span:hover {
+  font-size: 18px;
+  font-weight: 700;
+  color: limegreen;
+  background: white;
+}
 .careers a {
   width: 100%;
 }
@@ -44,10 +50,4 @@ body {
   transition: all .4s;
   color: white;
   background: navy;
-}
-.careers li a > span:hover {
-  font-size: 18px;
-  font-weight: 700;
-  color: limegreen;
-  background:white;
 }

@@ -37,6 +37,16 @@ body {
 		font-size: 15px;
 		font-weight: 500;
 		padding: 10px;
+		a {
+			>span {
+				&:hover {
+					font-size: 18px;
+					font-weight: 700;
+					color: @color_3;
+					background: white;
+				}
+			}
+		}
 	}
 	a {
 		width: 100%;
@@ -45,19 +55,7 @@ body {
 		font-size: 15px;
 		font-weight: 500;
 		transition: all .4s;
-		-webkit-transition: all .4s;
-		-moz-transition: all .4s;
-		-ms-transition: all .4s;
-		-o-transition: all .4s;
 		color: @color_2;
 		background: navy;
-	}
-	>a {
-		&:hover {
-			text-shadow: 1px 3px 1px lightblue;
-			font-size: 18px;
-			font-weight: 700;
-			color: @color_3;
-		}
 	}
 }
