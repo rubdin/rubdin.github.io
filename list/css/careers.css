@@ -49,7 +49,7 @@ body {
   color: white;
   background: navy;
 }
-.careers > a:hover {
+.careers > span:hover {
   text-shadow: 1px 3px 1px lightblue;
   font-size: 18px;
   font-weight: 700;
