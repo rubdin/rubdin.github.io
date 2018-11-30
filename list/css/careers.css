@@ -47,7 +47,11 @@ body {
 .careers span {
   font-size: 15px;
   font-weight: 500;
-  transition: all .4s;
+  transition: all .5s;
   color: white;
   background: navy;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }

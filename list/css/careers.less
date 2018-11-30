@@ -1,6 +1,6 @@
 @color_1: royalblue;
-@color_2: white;
-@color_3: limegreen;
+@color_2: limegreen;
+@color_3: white;
 
 html {
 	height: 100%;
@@ -42,7 +42,7 @@ body {
 				&:hover {
 					font-size: 18px;
 					font-weight: 700;
-					color: @color_3;
+					color: @color_2;
 					background: white;
 				}
 			}
@@ -54,8 +54,12 @@ body {
 	span {
 		font-size: 15px;
 		font-weight: 500;
-		transition: all .4s;
-		color: @color_2;
+		transition: all .5s;
+		color: @color_3;
 		background: navy;
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		-ms-transition: all .5s;
+		-o-transition: all .5s;
 	}
 }
