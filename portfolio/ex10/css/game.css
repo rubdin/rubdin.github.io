@@ -1,10 +1,19 @@
 body {
   background: #303030;
 }
-canvas {
+button{
+    background-color:rgb(240,240,240);
+    border:1px solid black;
+    border-radius:5%;
+    -webkit-border-radius:5%;
+    -moz-border-radius:5%;
+    -ms-border-radius:5%;
+    -o-border-radius:5%;
+}
+canvas{
   width: 800px;
   height: 500px;
   display: block;
   background: #ffffff;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
 }
