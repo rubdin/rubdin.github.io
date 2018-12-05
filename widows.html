@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>widows size</title>
+    <script>
+        $(function(){
+            var ww = 720;
+           if( $(windows).width() >= ww){
+                console.log("box1");
+                // 비교연산자 연습했던 결과 내용 작업
+            } 
+            else {
+                // 조건연산자 연습했던 결과 내용 작업
+            }
+        // $(widows).resize(function(){
+            //if( $(window).width() >= ww) {
+                //console.log('a');
+            // } else {
+
+            // }
+            //if( $(widnow).width() >= ww) func();
+        // })
+        // function func() {
+        // conosle.log('a');
+        // }
+    })
+    </script>
+</head>
+<style>
+    .box1{
+        float:left;
+        width:50%;
+        height:500px;
+        box-sizing:border-box;
+        border:1px solid yellowgreen;
+        /*background-color:navy;*/
+    }
+    .box2{
+        float:right;
+        width:50%;
+        height:500px;
+        box-sizing:border-box;
+        border:1px solid navy;
+        /*background-color:yellow;*/
+    }
+</style>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>
