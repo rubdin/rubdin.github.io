@@ -17,12 +17,12 @@
         gameNum=2; break;
         case "보":
         gameNum=3; break;
-        default:alert("잘못 작성했습니다.");
+        default:alert("잘못 작성 하셨습니다.");
         location.reload();
         }
         let com=Math.ceil(Math.random()*3);
         
-        documetn.write("<img src='images/math_img_"+com+".jpg' alt='가위,바위,보' />");
+        document.write("<img src='images/math_img_"+com+".jpg' alt='가위,바위,보' />");
         
         if(gameNum == com){
             alert("맞췄습니다! 축하합니다!!");
