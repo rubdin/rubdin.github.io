@@ -80,6 +80,7 @@ email:rubdin@naver.com
 
 포트 폴리오:https://github.com/rubdin/rubdin.github.io
 
+
 자기소개서
 
 *성장과정:
