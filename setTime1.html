@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>setTime 응용</title>
+    <script>
+        let arr=["red","green","blue","pink","yellow"];
+        let i = 0;
+        function bgChange(){
+            document.bgColor = arr[i++];
+            if(i == arr.length) i=0;
+            setTimeout("bgChange()",3000);
+        }
+        bgChange();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
