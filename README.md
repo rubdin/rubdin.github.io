@@ -78,7 +78,7 @@ email:rubdin@naver.com
 
 취득일:2006년 06월
 
-포트 폴리오:https://github.com/rubdin/rubdin.github.io
+포트 폴리오:https://github.com/rubdin/rubdin.github.io/index.html
 
 
 자기소개서
