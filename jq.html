@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery 연습</title>
+</head>
+<script>
+    $(function(){
+        uiTool();
+    })
+    function uiTool(){
+        let ui=["html","css","jquery"];
+        let tool=["svn","git","github"];
+
+        $.each(ui,function(i,e){
+            // $("#ui").append($("<li>"+ e +"</li>" ));
+            // $("#ui").prepend($("<li>" + e +"</li>"));
+            $("#ui").before($("<li>" + e +"</li>"));
+        });
+        
+        $.each(tool,function(i,e){
+            $("<li>"+ e +"</li>").appendTo("#tool");
+        });
+    }
+</script>
+<body>
+    
+</body>
+</html>
