@@ -1,0 +1,67 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+.header{
+    width:100%;
+    margin:0;
+}
+.haeder::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/* logo zone */
+.logo{
+    width:188px;
+    height:44px;
+    margin:0 auto;
+    text-align:center;
+}
+.logo::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/* main zone */
+.container{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.container::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.imgbox{
+    width:50%;
+    height:50%;
+}
+
+/* section zone */
+.job_seeker{
+    display:block;
+    float:left;
+    margin:0;
+    margin-top:85px;
+    border:1px solid #22a3dc;
+}
+.job_seeker img{
+    width:125px;
+    height:150px;
+    margin:0 auto;
+}
+.employee{
+    display:block;
+    float:left;
+    margin:0;
+    clear:both;
+    border:1px solid #8cb51a;
+}
+.employee img{
+    width:125px;
+    height:150px;
+    margin:0 auto;
+}
