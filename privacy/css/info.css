@@ -50,7 +50,3 @@ html,body{
     background-position:50% 50%;
     background-size:cover;
 }
-#imgaes-webkit-keyframes{
-    from{background-image:url(../images/bk_images.gif;)}
-    to{background-image:url(../images/article_img.png;)}
-}
