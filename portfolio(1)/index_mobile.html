@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type ="text/css" href="css/reset.css">
+	<link rel="stylesheet" type ="text/css" href="css/mobile.css">
+	<script type ="text/javascript" src="js/jquery/jquery-3.3.1.min.js"></script>
+	<script type ="text/javascript" src="js/jquery/jquery.easing.min.js"></script>
+    <title>My Portfolio Mobile</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="My portfolio">
+            </a>
+        </h1>
+        <!-- //.logo -->
+        <nav class="nav">
+            <ul class="gnb">
+                <li class="depth on">
+                    <a href="#section1">Profile</a>
+                </li>
+                <li class="depth">
+                    <a href="#section2">Skill</a>
+                </li>
+                <li class="depth">
+                    <a href="#section3">Portfolio</a>
+                </li>
+            </ul>
+            <!-- //.gnb -->
+        </nav>
+        <!-- //.nav -->
+
+        <div class="favorwrap">
+            <h2>Favorites(즐겨찾기)</h2>
+            <ul class="favorites">
+                <li>
+                    <a href="https://jquery.com/" target="_blink" title="새창">Jquery</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/" target="_blink" title="새창">W3schools</a>
+                </li>
+                <li>
+                    <a href="http://tcpschool.com/" target="_blink" title="새창">코딩의 시작 TCP School</a>
+                </li>
+                <li>
+                    <a href="http://entitycode.com/" target="_blink" title="새창">엔티티 코드 사이트</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- //.header -->
+
+    <main class="container">
+        <section id="section1" class="section profile">
+            <h2>Proflie(프로필)</h2>
+            <article>
+                <ul>
+                    <li>
+                        <strong>Name</strong>
+                        <span>김병선</span>
+                    </li>
+                    <li>
+                        <strong>Brith</strong>
+                        <span>1988.07.28</span>
+                    </li>
+                    <li>
+                        <strong>E-mail</strong>
+                        <span>rubdin@naver.com</span>
+                    </li>
+                    <li>
+                        <strong>Address</strong>
+                        <span>경기도 안양시</span>
+                    </li>
+                    <li>
+                        <strong>University</strong>
+                        <span>연성대학교 컴퓨터소프트 웨어과 졸업</span>
+                    </li>
+                    <li>
+                        <strong>Education</strong>
+                        <span>(NCS) UI/UX 스마트기기 웹&앱 디자인 수료</span>
+                    </li>
+                    <li>
+                        <strong>License</strong>
+                        <span>1.염색기능사(침엽) 2. 운전면허 2종 보통</span>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <!-- //.profile -->
+
+        <section id="section2" class="section skill">
+            <h2>Skill(활용능력)</h2>
+            <article>
+                <ul>
+                    <li>
+                        <a>
+                            <img src="images/icon/html5.png" alt="HTML5">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="images/icon/css3.png" alt="CSS3">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="images/icon/js.png" alt="JavaScript">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="images/icon/github.png" alt="GitHub">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="images/icon/tortoise svn.png" alt="Tortoise SVN">
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <!-- //.skill -->
+
+        <section id="section3" class="section portfolio">
+            <h2>Portfolio(포트폴리오)</h2>
+            <article>
+                <ul>
+                    <li>
+                        <a href="portfolio/ex1/index.html"target="_blink" title="새창">
+                            <div class="imgbox">
+                                <img src="images/Portfolio_img.jpg" alt="main 홈페이지 제작">
+                            </div>
+                            <dl>
+                                 <dt class="subtext">E-bussiness</dt>
+                                    <dd id="stext">
+                                        첫번째 포트폴리오 메인 페이지 제작
+                                    </dd>
+                                </dt>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio/ex2/index.html"target="_blink" title="새창">
+                            <div class="imgbox">
+                                <img src="images/portfolio_img_1.jpg" alt="교회 홈페이지 제작">
+                            </div>
+                            <dl>
+                                <dt class="subtext">교회 홈페이지</dt>
+                                    <dd id="stext">
+                                        두번째 포트폴리오
+                                        교회 홈페이지 제작
+                                    </dd>
+                                </dt>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio/ex3/index.html"target="_blink" title="새창">
+                            <div class="imgbox">
+                                <img src="images/portfolio_img_2.jpg" alt="관광업소 홈페이지 리뉴월">
+                            </div>
+                            <dl>
+                                <dt class="subtext">관공업소 홈페이지 리뉴월</dt>
+                                    <dd id="stext">
+                                        세번째 포트폴리오 
+                                        관광업소 홈페이지 리뉴월
+                                    </dd>
+                                </dt>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio/ex4/index.html"target="_blink" title="새창">
+                            <div class="imgbox">
+                                <img src="images/portfolio_img_3.jpg" alt="반응형 홈페이지 리뉴월">
+                            </div>
+                            <dl>
+                                <dt class="subtext">반응형 홈페이지 리뉴월
+                                    <dd id="stext">
+                                        네번째 포트폴리오 
+                                        반응형 홈페이지 리뉴월
+                                    </dd>
+                                </dt>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <!-- //.portfolio -->
+    </main>
+    <!-- //.container -->
+
+    <script>
+        $(document).ready(function(){
+            var navBtn = $(".nav > ul > li");
+            var contents = $(".container > .section");
+
+            navBtn.on("click", function(e){
+                e.preventDefault();
+                click_event($(this));
+            });
+
+            function click_event(target){
+                var section = contents.eq(target.index());
+                var offset = section.offset().top;
+
+                $("body, html").stop().animate({scrollTop:offset}, 800, 'easeInOutCubic');
+        }
+        $(window).on("scroll",function(){
+            var wScroll = $(this).scrollTop();
+
+            contents.each(function(i, e){
+                if(wScroll >= $(e).offset().top){
+                    navBtn.removeClass("on").eq(i).addClass("on");
+                }
+            });
+        });
+    });
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5bd7aa8365224c2640514bb0/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
+</body>
+</html>
