@@ -1,0 +1,56 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+
+/* info zone*/
+.info{
+    width:100%;
+    margin:0;
+    font-size:16px;
+    font-weight:600;
+    padding:10px 20px;
+}
+.info::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.en_name{ 
+    text-shadow:1px 2px 1px forestgreen, 1px 2px 1px royalblue;
+    padding:15px;
+}
+.birth{
+    text-shadow:1px 2px 1px gold, 1px 2px 1px silver;
+    padding:15px;
+}
+.email{
+    text-shadow:1px 2px 1px skyblue, 1px 2px 1px cyan;
+    padding:15px;
+}
+.phone_number{
+    text-shadow:1px 2px 1px green, 1px 2px 1px darkgreen;
+    padding:15px; 
+}
+.address{
+    text-shadow:1px 2px 1px orangered, 1px 2px 1px darkred;
+    padding:15px;
+}
+.images{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.images::after{
+    content:"";
+    display:block;
+    clear:both;
+    background-image:url(../images/bk_images.gif);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+}
+#imgaes-webkit-keyframes{
+    from{background-image:url(../images/bk_images.gif;)}
+    to{background-image:url(../images/article_img.png;)}
+}
