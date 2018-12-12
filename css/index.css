@@ -41,8 +41,6 @@ html,body{
     max-width:1000px;
     margin:0 auto;
     padding:0 40px;
-    border:1px solid royalblue;
-    display:none;
 }
 .container::after{
     content:"";
@@ -100,6 +98,7 @@ html,body{
     margin:0;
     float:right;
     border:1px solid red;
+    display:none;
 }
 .skill::after{
     content:"";
@@ -136,4 +135,5 @@ html,body{
     width:100%;
     margin:0;
     border:1px solid blue;
+    display:none;
 }
