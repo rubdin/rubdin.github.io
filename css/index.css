@@ -51,10 +51,11 @@ html,body{
 /* section zone */
 .profile{
     display:block;
-    width:50%;
+    width:100%;
     margin:0;
-    float:left;
+    margin-top:100px;
     border:1px solid forestgreen;
+    text-align:center;
 }
 .profile::after{
     content:"";
@@ -91,10 +92,8 @@ html,body{
 }
 /* skill zone */
 .skill{
-    position:absolute;
-    left:500px;
     display:block;
-    width:50%;
+    width:100%;
     margin:0;
     float:right;
     border:1px solid red;
