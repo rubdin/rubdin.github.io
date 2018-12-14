@@ -53,6 +53,13 @@ body {
   display: table;
   clear: both;
 }
+.visual h2{
+  display: block;
+  margin:0 auto;
+  font-size: 2.875rem;
+  font-weight: 800;
+  text-align: center;
+}
 .portfolio {
   max-width: 1000px;
   margin: 0 auto;
@@ -73,9 +80,10 @@ body {
   margin: 20px;
   font-size: 1.875rem;
 }
-.portfolio p {
+.portfolio #stxt {
   margin-top: 1.775rem;
   margin-bottom: 1.25rem;
+  font-size:1.015rem;
 }
 .portfolio a {
   margin-top: 1.50rem;
@@ -94,9 +102,11 @@ body {
   display: block;
   clear: both;
 }
-.container h2 {
+.container h3 {
   display: block;
-  font-size: 1.50rem;
+  margin:0 auto;
+  font-size: 2rem;
+  color:navy;
   font-weight: 800;
   text-align: center;
 }
@@ -146,7 +156,9 @@ body {
 }
 .info h2 {
   padding: 10px;
-  font-size: 1.50rem;
+  margin:0 auto;
+  font-size: 2rem;
+  color:navy;
   font-weight: 800;
 }
 .info{
@@ -165,4 +177,55 @@ body {
 .info span{
     margin-top:1.75rem;
     margin-bottom:0;
+}
+h2 {
+  animation: type 3s steps(21);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 4px solid black;
+  width: 22ch;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 21ch;
+  }
+}
+h3 {
+  animation: type 3s steps(21);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 4px solid black;
+  width: 22ch;
+  margin:0 auto;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 21ch;
+  }
+}
+
+#stxt {
+  animation: type 3s steps(21);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 4px solid black;
+  width: 120ch;
+  margin:0 auto;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 21ch;
+  }
 }
