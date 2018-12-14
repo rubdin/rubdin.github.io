@@ -127,5 +127,8 @@ body {
   margin-top: 0;
   margin-bottom: 1.50rem;
   font-size: 1.50rem;
-  text-shadow: 1px 2px 1px navy;
+}
+.profile span{
+    margin-top:2rem;
+    margin-bottom:0;
 }
