@@ -11,13 +11,13 @@ body {
   margin: 0;
 }
 .headwrap {
-  max-width: 1000px;
-  height: 80px;
+  width: 100%;
+  height: 110px;
   margin: 0 auto;
 }
 .headwrap::after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 .header {
@@ -33,14 +33,16 @@ body {
 }
 .title {
   display: block;
+  height: 110px;
   margin-bottom: 0;
-  font-size: 3.75rem;
-  text-transform: uppercase;
-  font-weight: 100;
   line-height: 1;
   color: #000;
+  font-size: 3.75rem;
+  font-weight: 100;
   font-family: "Norwester", 'Open Sans', Georgia, serif;
   letter-spacing: 1.5px;
+  background-color: #fffff0;
+  text-align: center;
 }
 .visual {
   max-width: 1000px;
@@ -63,14 +65,16 @@ body {
   clear: both;
 }
 .portfolio strong {
+  margin-top: 1.875rem;
   font-size: 1.875rem;
   font-weight: 700;
 }
 .portfolio span {
+  margin: 20px;
   font-size: 1.875rem;
 }
 .portfolio p {
-  margin-top: 0;
+  margin-top: 1.775rem;
   margin-bottom: 1.25rem;
 }
 .portfolio a {
@@ -91,8 +95,9 @@ body {
   clear: both;
 }
 .container h2 {
+  display: block;
   font-size: 1.50rem;
-  font-weight: 100;
+  font-weight: 800;
   text-align: center;
 }
 .container img {
@@ -103,4 +108,24 @@ body {
   display: inline-block;
   height: auto;
   margin: 0;
+}
+.profile {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.profile::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.profile h2 {
+  padding: 10px;
+  font-size: 1.50rem;
+  font-weight: 800;
+}
+.profile strong {
+  margin-top: 0;
+  margin-bottom: 1.50rem;
+  font-size: 1.50rem;
+  text-shadow: 1px 2px 1px navy;
 }
