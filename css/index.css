@@ -2,6 +2,30 @@
 /* visual zone*/
 /* imgbox zone */
 /* main zone */
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 21ch;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 21ch;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 21ch;
+  }
+}
 html {
   height: 100%;
   margin: 0;
@@ -53,9 +77,9 @@ body {
   display: table;
   clear: both;
 }
-.visual h2{
+.visual h2 {
   display: block;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 2.875rem;
   font-weight: 800;
   text-align: center;
@@ -83,7 +107,7 @@ body {
 .portfolio #stxt {
   margin-top: 1.775rem;
   margin-bottom: 1.25rem;
-  font-size:1.015rem;
+  font-size: 1.015rem;
 }
 .portfolio a {
   margin-top: 1.50rem;
@@ -104,9 +128,9 @@ body {
 }
 .container h3 {
   display: block;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 2rem;
-  color:navy;
+  color: navy;
   font-weight: 800;
   text-align: center;
 }
@@ -119,64 +143,60 @@ body {
   height: auto;
   margin: 0;
 }
-.skill{
-  width:100%;
-  margin:0;
+.skill {
+  width: 100%;
+  margin: 0;
 }
 .infowrap {
   max-width: 1000px;
   margin: 0 auto;
-  padding:10px 10px;
+  padding: 10px 10px;
 }
 .infowrap::after {
   content: "";
   display: block;
   clear: both;
 }
-.info{
-  width:100%;
-  margin:0;
+.info {
+  width: 100%;
+  margin: 0;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
 }
-.info::after{
-  content:"";
-  display:block;
-  clear:both;
+.info::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.info div:first-child{
-  padding:5px;
-  border-bottom:2px dotted white;
+.info div:first-child {
+  padding: 5px;
+  border-bottom: 2px dotted white;
 }
-.info div:nth-child(2){
-  padding:5px;
-  border-bottom:2px dotted white;
+.info div:nth-child(2) {
+  padding: 5px;
+  border-bottom: 2px dotted white;
 }
-.info div:nth-child(3){
-  padding:5px;
-  border-bottom:2px dotted white;
+.info div:nth-child(3) {
+  padding: 5px;
+  border-bottom: 2px dotted white;
 }
 .info h2 {
   padding: 10px;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 2rem;
-  color:navy;
+  color: navy;
   font-weight: 800;
-}
-.info{
-  width:100%;
-  margin:0;
-  background-image:url(../images/background.png);
-  background-repeat:no-repeat;
-  background-position:100% 100%;
-  background-size:cover;
 }
 .info strong {
   font-size: 1.25rem;
   margin-top: 0;
   margin-bottom: 1.25rem;
 }
-.info span{
-    margin-top:1.75rem;
-    margin-bottom:0;
+.info span {
+  margin-top: 1.75rem;
+  margin-bottom: 0;
 }
 h2 {
   animation: type 3s steps(21);
@@ -186,14 +206,6 @@ h2 {
   border-right: 4px solid black;
   width: 22ch;
 }
-@keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 21ch;
-  }
-}
 h3 {
   animation: type 3s steps(21);
   overflow: hidden;
@@ -201,17 +213,8 @@ h3 {
   font-family: consolas;
   border-right: 4px solid black;
   width: 22ch;
-  margin:0 auto;
+  margin: 0 auto;
 }
-@keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 21ch;
-  }
-}
-
 #stxt {
   animation: type 3s steps(21);
   overflow: hidden;
@@ -219,13 +222,5 @@ h3 {
   font-family: consolas;
   border-right: 4px solid black;
   width: 120ch;
-  margin:0 auto;
-}
-@keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 21ch;
-  }
+  margin: 0 auto;
 }
