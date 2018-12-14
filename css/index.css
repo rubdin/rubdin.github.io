@@ -59,9 +59,9 @@ body {
   display: block;
   height: 110px;
   margin-bottom: 0;
-  line-height: 1;
+  line-height: 110px;
   color: #000;
-  font-size: 3.75rem;
+  font-size: 1.75rem;
   font-weight: 100;
   font-family: "Norwester", 'Open Sans', Georgia, serif;
   letter-spacing: 1.5px;
@@ -130,7 +130,6 @@ body {
   display: block;
   margin: 0 auto;
   font-size: 2rem;
-  color: navy;
   font-weight: 800;
   text-align: center;
 }
@@ -160,10 +159,10 @@ body {
 .info {
   width: 100%;
   margin: 0;
-  background-image: url(../images/background.png);
+  background-image: url(../images/smartphone.png);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background-size: cover;
+  background-position: 50% 50%;
+  background-size:368px 148px;
 }
 .info::after {
   content: "";
@@ -186,15 +185,17 @@ body {
   padding: 10px;
   margin: 0 auto;
   font-size: 2rem;
-  color: navy;
   font-weight: 800;
 }
 .info strong {
-  font-size: 1.25rem;
+  font-size: 1.015rem;
+  font-weight:600;
   margin-top: 0;
   margin-bottom: 1.25rem;
 }
 .info span {
+  font-size:1.15rem;
+  font-weight:600;
   margin-top: 1.75rem;
   margin-bottom: 0;
 }
