@@ -47,11 +47,13 @@ html,body{
     display:table;
     clear:both;
 }
+
 /* imgbox zone */
 .portfolio{
     max-width:1000px;
     margin:0 auto;
     padding:20px 0;
+    text-align:center;
 }
 .portfolio::after{
     content:"";
@@ -81,6 +83,7 @@ html,body{
     margin:0 auto;
     padding:0 40px;
     clear: both;
+    text-align:center;
 }
 .container::after{
     content:"";
@@ -96,4 +99,8 @@ html,body{
     display:inline-block;
     height:auto;
     margin:0;
+}
+.container img{
+    width:138px;
+    margin:0 auto;
 }
