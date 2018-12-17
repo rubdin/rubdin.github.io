@@ -159,10 +159,10 @@ body {
 .info {
   width: 100%;
   margin: 0;
-  background-image: url(../images/smartphone.png);
+  background-image: url(../images/bg_img.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size:368px 148px;
+  background-size:1000px 540px;
 }
 .info::after {
   content: "";
@@ -199,6 +199,8 @@ body {
   margin-top: 1.75rem;
   margin-bottom: 0;
 }
+
+/* 텍스트 효과 */
 h2 {
   animation: type 3s steps(21);
   overflow: hidden;
@@ -206,6 +208,7 @@ h2 {
   font-family: consolas;
   border-right: 4px solid black;
   width: 22ch;
+  -webkit-animation: type 3s steps(21);
 }
 h3 {
   animation: type 3s steps(21);
