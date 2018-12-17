@@ -26,6 +26,8 @@
     width: 21ch;
   }
 }
+/* snsicon zone */
+/* 텍스트 효과 */
 html {
   height: 100%;
   margin: 0;
@@ -147,8 +149,10 @@ body {
   margin: 0;
 }
 .infowrap {
+  display: block;
   max-width: 1000px;
   margin: 0 auto;
+  float: left;
   padding: 10px 10px;
 }
 .infowrap::after {
@@ -162,23 +166,23 @@ body {
   background-image: url(../images/bg_img.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size:1000px 540px;
+  border: 1px solid black;
 }
 .info::after {
   content: "";
-  display: block;
+  display: table;
   clear: both;
 }
-.info div:first-child {
-  padding: 5px;
+.info p:first-child {
+  padding: 5px 5px;
   border-bottom: 2px dotted white;
 }
-.info div:nth-child(2) {
-  padding: 5px;
+.info p:nth-child(2) {
+  padding: 5px 5px;
   border-bottom: 2px dotted white;
 }
-.info div:nth-child(3) {
-  padding: 5px;
+.info p:nth-child(3) {
+  padding: 5px 5px;
   border-bottom: 2px dotted white;
 }
 .info h2 {
@@ -187,20 +191,43 @@ body {
   font-size: 2rem;
   font-weight: 800;
 }
-.info strong {
-  font-size: 1.015rem;
-  font-weight:600;
-  margin-top: 0;
-  margin-bottom: 1.25rem;
-}
 .info span {
-  font-size:1.15rem;
-  font-weight:600;
+  font-size: 1.15rem;
+  font-weight: 600;
   margin-top: 1.75rem;
   margin-bottom: 0;
 }
-
-/* 텍스트 효과 */
+.snsicon {
+  display: inline-block;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  float: right;
+}
+.snsicon::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.snsicon img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.snsicon .facebook {
+  display: inline-block;
+  max-width: 1000px;
+  min-width: 120px;
+  line-height: 120px;
+  margin: 0 auto;
+}
+.snsicon .instagram {
+  display: inline-block;
+  max-width: 1000px;
+  min-width: 120px;
+  line-height: 120px;
+  margin: 0 auto;
+}
 h2 {
   animation: type 3s steps(21);
   overflow: hidden;
