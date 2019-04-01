@@ -231,7 +231,7 @@ body{
 .contents1 .listgp1_1 li a{
 	display:block;
 	width:100%;
-	font-size:15px;
+	font-size:13px;
 	border-bottom:1px dotted;
 }
 .contents1 .listgp1_1 li span{
@@ -243,7 +243,7 @@ body{
 }
 
 .contents1 .listgp1_1 li a:hover{
-	font-size:15px;
+	font-size:13px;
 	font-weight:bold;
 }
 
